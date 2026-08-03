@@ -65,6 +65,7 @@
                 >OVERVIEW</a
               >
             </li>
+            <li><router-link to="/frameworks" class="footer--link">FRAMEWORK DOCUMENTATION</router-link></li>
           </ul>
         </div>
         <div class="footer__column footer__column--follow" @click="isSmallScreen && toggleAccordion('follow')">

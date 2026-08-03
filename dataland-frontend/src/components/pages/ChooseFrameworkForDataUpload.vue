@@ -12,6 +12,18 @@
               <div id="euTaxonomyLabel" class="col-3 p-3">
                 <h3>EU Taxonomy</h3>
                 <p>{{ buildSubtitle('EU Taxonomy') }}</p>
+                <router-link
+                  :to="`/frameworks/${DataTypeEnum.EutaxonomyNonFinancials}`"
+                  class="view-documentation-link"
+                  data-test="view-documentation-link"
+                  >View documentation (Non-Financials)</router-link
+                >
+                <router-link
+                  :to="`/frameworks/${DataTypeEnum.EutaxonomyFinancials}`"
+                  class="view-documentation-link"
+                  data-test="view-documentation-link"
+                  >View documentation (Financials)</router-link
+                >
               </div>
               <div class="col-9 d-card">
                 <div id="eutaxonomyDatasetsContainer">
@@ -44,6 +56,12 @@
               <div :id="dataType + 'Label'" class="col-3 p-3">
                 <h3>{{ humanizeString(dataType) }}</h3>
                 <p>{{ buildSubtitle(humanizeString(dataType)) }}</p>
+                <router-link
+                  :to="`/frameworks/${dataType}`"
+                  class="view-documentation-link"
+                  data-test="view-documentation-link"
+                  >View documentation</router-link
+                >
               </div>
               <div class="col-9 d-card">
                 <MetaInfoPerCompanyAndFramework
@@ -239,6 +257,11 @@ export default defineComponent({
 });
 </script>
 <style>
+.view-documentation-link {
+  display: block;
+  margin-top: var(--spacing-xs);
+}
+
 .d-card {
   background: var(--default-neutral-white);
   padding: var(--spacing-md);
