@@ -5,7 +5,11 @@
         <p class="font-medium text-xl">Loading framework...</p>
         <DatalandProgressSpinner />
       </div>
-      <template v-else-if="framework">
+      <div v-else-if="!framework" data-test="framework-documentation-not-found">
+        <h1>Framework not found</h1>
+        <p>No framework documentation could be found for id "{{ frameworkId }}".</p>
+      </div>
+      <template v-else>
         <h1 data-test="framework-documentation-title">{{ framework.name }}</h1>
         <p>{{ framework.businessDefinition }}</p>
         <Tabs :value="categories[0] ?? ''">
@@ -83,7 +87,7 @@ import {
 } from '@/utils/SpecificationDataUtils';
 import { type FrameworkSpecification, type DataPointBaseTypeSpecification } from '@clients/specificationservice';
 
-const props = defineProps<{ frameworkId: string }>();
+const { frameworkId } = defineProps<{ frameworkId: string }>();
 
 const getKeycloakPromise = inject<() => Promise<Keycloak>>('getKeycloakPromise')!;
 const apiClientProvider = new ApiClientProvider(assertDefined(getKeycloakPromise)());
@@ -108,11 +112,11 @@ const rowsByCategory = computed<Record<string, (FrameworkDataPointRow & { key: s
 
 onMounted(async () => {
   try {
-    const result = await getFrameworkDetailWithDataPoints(apiClientProvider, props.frameworkId);
+    const result = await getFrameworkDetailWithDataPoints(apiClientProvider, frameworkId);
     framework.value = result.framework;
     rows.value = result.rows.map((row) => ({ ...row, key: `${row.category}.${row.subcategory}.${row.fieldName}` }));
   } catch (error) {
-    console.error(`Failed to fetch framework specification for ${props.frameworkId}`, error);
+    console.error(`Failed to fetch framework specification for ${frameworkId}`, error);
   } finally {
     waitingForData.value = false;
   }

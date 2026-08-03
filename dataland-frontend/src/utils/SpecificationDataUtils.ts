@@ -6,10 +6,21 @@ import {
 } from '@clients/specificationservice';
 
 /**
- * The shape of the `schema` field of a `FrameworkSpecification` once it has been JSON-parsed.
- * Maps category -> subcategory -> field name -> data point type id.
+ * A reference to a data point type as found in a leaf of a framework schema.
+ * Note: `aliasExport` is not modeled in the specification-service OpenAPI spec (the `schema` field is
+ * an opaque JSON string there), but is present on the actual runtime data.
  */
-export type FrameworkSchema = Record<string, Record<string, Record<string, string>>>;
+export interface FrameworkSchemaFieldReference {
+  id: string;
+  ref: string;
+  aliasExport?: string;
+}
+
+/**
+ * The shape of the `schema` field of a `FrameworkSpecification` once it has been JSON-parsed.
+ * Maps category -> subcategory -> field name -> data point type reference.
+ */
+export type FrameworkSchema = Record<string, Record<string, Record<string, FrameworkSchemaFieldReference>>>;
 
 /**
  * A single flattened row derived from a framework's schema, before data-point details are resolved.
@@ -55,8 +66,8 @@ export function flattenFrameworkSchema(schema: FrameworkSchema): FlattenedSchema
   const flattenedFields: FlattenedSchemaField[] = [];
   for (const [category, subcategories] of Object.entries(schema)) {
     for (const [subcategory, fields] of Object.entries(subcategories)) {
-      for (const [fieldName, dataPointTypeId] of Object.entries(fields)) {
-        flattenedFields.push({ category, subcategory, fieldName, dataPointTypeId });
+      for (const [fieldName, reference] of Object.entries(fields)) {
+        flattenedFields.push({ category, subcategory, fieldName, dataPointTypeId: reference.id });
       }
     }
   }
