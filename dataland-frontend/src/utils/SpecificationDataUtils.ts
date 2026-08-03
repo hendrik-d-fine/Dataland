@@ -119,9 +119,8 @@ export async function getFrameworkDetailWithDataPoints(
   apiClientProvider: ApiClientProvider,
   frameworkId: string
 ): Promise<{ framework: FrameworkSpecification; rows: FrameworkDataPointRow[] }> {
-  const framework = (
-    await apiClientProvider.apiClients.specificationController.getFrameworkSpecification(frameworkId)
-  ).data;
+  const framework = (await apiClientProvider.apiClients.specificationController.getFrameworkSpecification(frameworkId))
+    .data;
   const schema = parseFrameworkSchema(framework.schema);
   const flattenedFields = flattenFrameworkSchema(schema);
 

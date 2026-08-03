@@ -40,6 +40,10 @@ const AdminRequestsOverviewLegacy = (): Promise<RouteComponent> =>
 const ViewTeaserCompanyData = (): Promise<RouteComponent> => import('@/components/pages/ViewTeaserCompanyData.vue');
 const ChooseFrameworkForDataUpload = (): Promise<RouteComponent> =>
   import('@/components/pages/ChooseFrameworkForDataUpload.vue');
+const FrameworkDocumentationOverview = (): Promise<RouteComponent> =>
+  import('@/components/pages/FrameworkDocumentationOverview.vue');
+const FrameworkDocumentationDetail = (): Promise<RouteComponent> =>
+  import('@/components/pages/FrameworkDocumentationDetail.vue');
 import PlatformRedirect from '@/components/resources/landingPage/PlatformRedirect.vue';
 
 const routes = [
@@ -345,6 +349,27 @@ const routes = [
     component: PlatformRedirect,
     meta: {
       requiresAuthentication: true,
+    },
+  },
+  {
+    path: '/frameworks',
+    name: 'Framework Documentation Overview',
+    component: FrameworkDocumentationOverview,
+    meta: {
+      requiresAuthentication: false,
+      useLandingPageHeader: false,
+      initialTabId: 'framework-docs',
+    },
+  },
+  {
+    path: '/frameworks/:frameworkId',
+    props: true,
+    name: 'Framework Documentation Detail',
+    component: FrameworkDocumentationDetail,
+    meta: {
+      requiresAuthentication: false,
+      useLandingPageHeader: false,
+      initialTabId: 'framework-docs',
     },
   },
   {
