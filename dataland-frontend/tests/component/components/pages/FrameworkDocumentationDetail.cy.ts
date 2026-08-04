@@ -1,4 +1,5 @@
 import FrameworkDocumentationDetail from '@/components/pages/FrameworkDocumentationDetail.vue';
+import router from '@/router';
 import {
   type FrameworkSpecification,
   type DataPointTypeSpecification,
@@ -77,6 +78,18 @@ describe('Component tests for the FrameworkDocumentationDetail page', () => {
     cy.wait('@getDataPointBaseType');
     cy.get('[data-test="datapoint-base-type"]').should('contain', 'Plain Date');
     cy.get('[data-test="datapoint-constraints"]').should('contain', 'mandatory');
+    cy.get('[data-test="datapoint-example-notice"]').should('contain', 'illustrative only');
+  });
+
+  it('Navigates back to the overview page when the back button is clicked', () => {
+    cy.intercept('**/specifications/frameworks/sfdr', mockFramework).as('getFramework');
+    cy.spy(router, 'push').as('routerPush');
+    getMountingFunction({ keycloak: minimalKeycloakMock({}) })(FrameworkDocumentationDetail, {
+      props: { frameworkId: 'sfdr' },
+    });
+    cy.wait('@getFramework');
+    cy.get('[data-test="framework-documentation-back-button"]').click();
+    cy.get('@routerPush').should('have.been.calledWith', '/frameworks');
   });
 
   it('Shows a not-found message when the framework cannot be loaded', () => {

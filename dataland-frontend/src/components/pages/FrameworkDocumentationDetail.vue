@@ -10,6 +10,13 @@
         <p>No framework documentation could be found for id "{{ frameworkId }}".</p>
       </div>
       <template v-else>
+        <Button
+          icon="pi pi-arrow-left"
+          label="Back to overview"
+          text
+          data-test="framework-documentation-back-button"
+          @click="goToOverview"
+        />
         <h1 data-test="framework-documentation-title">{{ framework.name }}</h1>
         <p>{{ framework.businessDefinition }}</p>
         <Tabs :value="categories[0] ?? ''">
@@ -49,6 +56,9 @@
                       <p><strong>Base type:</strong> {{ baseTypeDetails[data.dataPointBaseTypeId]!.name }}</p>
                       <p>{{ baseTypeDetails[data.dataPointBaseTypeId]!.businessDefinition }}</p>
                       <p><strong>Validated by:</strong> {{ baseTypeDetails[data.dataPointBaseTypeId]!.validatedBy }}</p>
+                      <Message severity="secondary" variant="simple" size="small" data-test="datapoint-example-notice">
+                        Example value shape - illustrative only, not actual reported data.
+                      </Message>
                       <pre>{{ JSON.stringify(baseTypeDetails[data.dataPointBaseTypeId]!.example, null, 2) }}</pre>
                     </div>
                     <div v-else class="inline-loading">
@@ -75,6 +85,9 @@ import TabList from 'primevue/tablist';
 import Tab from 'primevue/tab';
 import TabPanels from 'primevue/tabpanels';
 import TabPanel from 'primevue/tabpanel';
+import Button from 'primevue/button';
+import Message from 'primevue/message';
+import router from '@/router';
 import TheContent from '@/components/generics/TheContent.vue';
 import DatalandProgressSpinner from '@/components/general/DatalandProgressSpinner.vue';
 import { ApiClientProvider } from '@/services/ApiClients';
@@ -121,6 +134,13 @@ onMounted(async () => {
     waitingForData.value = false;
   }
 });
+
+/**
+ * Navigates back to the framework documentation overview page.
+ */
+function goToOverview(): void {
+  void router.push('/frameworks');
+}
 
 /**
  * Lazily fetches and caches the data point base type detail for a row once it is expanded.

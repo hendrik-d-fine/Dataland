@@ -1,1 +1,3 @@
 Do not change the indentation unless explicitly asked!
+
+After making any code change, always run the relevant typecheck/lint/style-check commands yourself (e.g. `npm run typecheck`, `npm run lint`, `npx eslint`, `npx prettier --check` in dataland-frontend, or `./gradlew ktlintFormat`/`./gradlew detekt` for Kotlin modules) without asking for confirmation first. Only ask before running destructive or irreversible commands.
