@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoEnvironmentalImpactPolicy",
+  "name" : "Environmental Impact Policy",
+  "businessDefinition" : "Does your company have an environmental impact policy? If yes, please share the policy with us.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

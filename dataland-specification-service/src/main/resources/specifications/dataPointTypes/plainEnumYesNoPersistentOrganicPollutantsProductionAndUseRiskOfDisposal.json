@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoPersistentOrganicPollutantsProductionAndUseRiskOfDisposal",
+  "name" : "Persistent Organic Pollutants Production and Use - Risk Of Disposal",
+  "businessDefinition" : "In relation to the waste of these pollutants, is there a risk that they will be subject to the rules laid down in the applicable legal system in accordance with the provisions of Article 6(1)(d)(i) and (ii) of the POP Convention (BGBI. 2002 II p. 803, 804) and will: Not be handled, collected, stored, or transported in an environmentally sound manner; Not be disposed of in an environmentally friendly manner, i.e. disposed of in such a way that the persistent organic pollutants contained therein are destroyed or irreversibly converted?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

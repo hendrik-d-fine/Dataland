@@ -78,7 +78,7 @@ class YesNoNaComponent(
     }
 
     override fun generateDefaultSpecification(specificationCategoryBuilder: CategoryBuilder) {
-        requireDocumentSupportIn(setOf(ExtendedDocumentSupport))
+        requireDocumentSupportIn(setOf(NoDocumentSupport, ExtendedDocumentSupport, SimpleDocumentSupport))
         specificationCategoryBuilder.addDefaultDatapointAndSpecification(
             this,
             "EnumYesNoNa",

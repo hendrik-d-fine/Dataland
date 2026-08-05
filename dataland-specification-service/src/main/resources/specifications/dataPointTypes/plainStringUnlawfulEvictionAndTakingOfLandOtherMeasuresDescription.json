@@ -1,0 +1,8 @@
+{
+  "id" : "plainStringUnlawfulEvictionAndTakingOfLandOtherMeasuresDescription",
+  "name" : "Unlawful Eviction and Taking of Land - Other Measures Description",
+  "businessDefinition" : "Please list other measures (if available) you take to avoid, reduce, mitigate, or remedy direct and indirect adverse impacts on the lands and natural resources of indigenous peoples and local communities.",
+  "dataPointBaseTypeId" : "plainString",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

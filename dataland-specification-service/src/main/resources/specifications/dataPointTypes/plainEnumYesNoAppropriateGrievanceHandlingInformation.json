@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoAppropriateGrievanceHandlingInformation",
+  "name" : "Appropriate Grievance Handling Information",
+  "businessDefinition" : "Is the grievance procedure adapted to your company context and articulated in a way that is understandable to the target groups?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainStringAdditionalChildLaborOtherMeasuresDescription",
+  "name" : "Additional Child Labor Other Measures Description",
+  "businessDefinition" : "Please list any other measures (if available) you take to prevent the employment of children under the locally applicable minimum age?",
+  "dataPointBaseTypeId" : "plainString",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

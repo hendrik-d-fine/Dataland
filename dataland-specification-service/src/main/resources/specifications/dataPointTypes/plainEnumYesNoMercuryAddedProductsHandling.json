@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoMercuryAddedProductsHandling",
+  "name" : "Mercury Added-Products Handling",
+  "businessDefinition" : "Are you involved in the manufacturing, use, treatment, import, or export of products containing mercury?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

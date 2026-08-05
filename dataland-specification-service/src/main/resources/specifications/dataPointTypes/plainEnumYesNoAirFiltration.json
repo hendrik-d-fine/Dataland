@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoAirFiltration",
+  "name" : "Air Filtration",
+  "businessDefinition" : "Does your company have air filtration systems?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

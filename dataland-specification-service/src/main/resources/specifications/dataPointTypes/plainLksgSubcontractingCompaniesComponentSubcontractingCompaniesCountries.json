@@ -1,0 +1,8 @@
+{
+  "id" : "plainLksgSubcontractingCompaniesComponentSubcontractingCompaniesCountries",
+  "name" : "Subcontracting Companies Countries",
+  "businessDefinition" : "In which countries do the subcontracting companies operate?",
+  "dataPointBaseTypeId" : "plainLksgSubcontractingCompaniesComponent",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

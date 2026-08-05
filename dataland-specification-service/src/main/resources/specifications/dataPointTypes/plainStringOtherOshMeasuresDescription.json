@@ -1,0 +1,8 @@
+{
+  "id" : "plainStringOtherOshMeasuresDescription",
+  "name" : "Other OSH Measures Description",
+  "businessDefinition" : "Please list other measures (if available) you take to prevent the disregard for occupational health and safety?",
+  "dataPointBaseTypeId" : "plainString",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

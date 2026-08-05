@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHarmfulWaterPollution",
+  "name" : "Harmful Water Pollution",
+  "businessDefinition" : "Is there a risk of your company causing harmful water pollution?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

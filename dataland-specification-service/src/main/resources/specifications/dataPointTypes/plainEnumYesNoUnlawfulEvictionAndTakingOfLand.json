@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoUnlawfulEvictionAndTakingOfLand",
+  "name" : "Unlawful Eviction and Taking of Land",
+  "businessDefinition" : "Is your company, as a result of the acquisition, development, or other use of land, forests, or bodies of water, which secures a person's livelihood, at risk of carrying out: Unlawful evictions; Unlawful claims of land, forests, or water?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

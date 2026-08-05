@@ -74,7 +74,7 @@ open class IntegerComponent(
     }
 
     override fun generateDefaultSpecification(specificationCategoryBuilder: CategoryBuilder) {
-        requireDocumentSupportIn(setOf(ExtendedDocumentSupport))
+        requireDocumentSupportIn(setOf(NoDocumentSupport, ExtendedDocumentSupport))
         specificationCategoryBuilder.addDefaultDatapointAndSpecification(
             this,
             "Integer",

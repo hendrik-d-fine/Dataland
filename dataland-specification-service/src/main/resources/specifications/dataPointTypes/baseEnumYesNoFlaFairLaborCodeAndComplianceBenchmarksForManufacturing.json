@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoFlaFairLaborCodeAndComplianceBenchmarksForManufacturing",
+  "name" : "FLA Fair Labor Code and Compliance Benchmarks for Manufacturing",
+  "businessDefinition" : "Is your company FLA Fair Labor Code and Compliance Benchmarks for Manufacturing certified? If so, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

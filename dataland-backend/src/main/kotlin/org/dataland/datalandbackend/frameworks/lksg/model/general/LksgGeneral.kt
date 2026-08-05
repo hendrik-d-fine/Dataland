@@ -13,7 +13,7 @@ import org.dataland.datalandbackend.frameworks.lksg.model.general.productionSpec
 @Suppress("MaxLineLength")
 data class LksgGeneral(
     @field:Valid()
-    val masterData: LksgGeneralMasterData,
+    val masterData: LksgGeneralMasterData? = null,
     @field:Valid()
     val productionSpecific: LksgGeneralProductionSpecific? = null,
     @field:Valid()

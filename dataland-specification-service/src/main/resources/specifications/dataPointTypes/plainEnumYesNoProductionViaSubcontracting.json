@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoProductionViaSubcontracting",
+  "name" : "Production via Subcontracting",
+  "businessDefinition" : "Is the production done via subcontracting?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

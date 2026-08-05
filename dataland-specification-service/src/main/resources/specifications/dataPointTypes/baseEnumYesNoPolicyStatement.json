@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoPolicyStatement",
+  "name" : "Policy Statement",
+  "businessDefinition" : "Does your company have a policy statement on its human rights strategy? If yes, please share the policy with us.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

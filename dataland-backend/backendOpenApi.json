@@ -11810,13 +11810,15 @@
         }
       },
       "LksgData": {
-        "required": [
-          "general"
-        ],
         "type": "object",
         "properties": {
           "general": {
-            "$ref": "#/components/schemas/LksgGeneral"
+            "nullable": true,
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/LksgGeneral"
+              }
+            ]
           },
           "governance": {
             "nullable": true,
@@ -12127,13 +12129,15 @@
         }
       },
       "LksgGeneral": {
-        "required": [
-          "masterData"
-        ],
         "type": "object",
         "properties": {
           "masterData": {
-            "$ref": "#/components/schemas/LksgGeneralMasterData"
+            "nullable": true,
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/LksgGeneralMasterData"
+              }
+            ]
           },
           "productionSpecific": {
             "nullable": true,
@@ -12154,15 +12158,13 @@
         }
       },
       "LksgGeneralMasterData": {
-        "required": [
-          "dataDate"
-        ],
         "type": "object",
         "properties": {
           "dataDate": {
             "type": "string",
             "description": "The date until when the information collected is valid",
-            "format": "date"
+            "format": "date",
+            "nullable": true
           },
           "headOfficeInGermany": {
             "nullable": true,

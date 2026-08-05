@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoForcedLaborAndSlaveryPreventionOtherMeasures",
+  "name" : "Forced Labor and Slavery Prevention Other Measures",
+  "businessDefinition" : "Have any other measures been taken to prevent forced labor and slavery?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

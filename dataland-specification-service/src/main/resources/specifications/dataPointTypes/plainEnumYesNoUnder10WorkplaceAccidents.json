@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoUnder10WorkplaceAccidents",
+  "name" : "Under 10 Workplace Accidents",
+  "businessDefinition" : "Have there been less than 10 incidents in which employees suffered work-related injuries with serious consequences in the past fiscal year?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

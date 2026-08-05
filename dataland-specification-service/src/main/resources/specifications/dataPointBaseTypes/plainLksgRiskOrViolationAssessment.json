@@ -1,0 +1,16 @@
+{
+  "id" : "plainLksgRiskOrViolationAssessment",
+  "name" : "Risk or violation assessment",
+  "businessDefinition" : "A list of assessments of a risk position or general violation, including measures taken.",
+  "validatedBy" : "kotlin.collections.List<org.dataland.datalandbackend.frameworks.lksg.custom.LksgRiskOrViolationAssessment>",
+  "schema" : [ {
+    "riskPosition" : "RiskPositionType",
+    "measuresTaken" : "YesNo",
+    "listedMeasures" : "String"
+  } ],
+  "example" : [ {
+    "riskPosition" : "ChildLabor",
+    "measuresTaken" : "Yes",
+    "listedMeasures" : "Sample measures taken to mitigate the risk"
+  } ]
+}

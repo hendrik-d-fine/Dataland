@@ -1,0 +1,8 @@
+{
+  "id" : "plainSingleSelect",
+  "name" : "General single-select data point without a source",
+  "businessDefinition" : "A plain value representing a choice between pre-defined options, without document support.",
+  "validatedBy" : "kotlin.String",
+  "schema" : "String",
+  "example" : "Option 1"
+}

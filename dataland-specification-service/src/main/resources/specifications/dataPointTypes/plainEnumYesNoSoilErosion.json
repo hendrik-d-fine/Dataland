@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoSoilErosion",
+  "name" : "Soil Erosion",
+  "businessDefinition" : "Does your company have measures in place to prevent soil erosion caused by deforestation or overgrazing?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoEmploymentUnderLocalMinimumAgePreventionJobDescription",
+  "name" : "Employment Under Local Minimum Age Prevention  -  Job Description",
+  "businessDefinition" : "Do you have a clear job description for employees under local minimum age as part of your recruitment process and employment contracts?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

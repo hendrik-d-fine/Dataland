@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHighRiskCountriesRawMaterials",
+  "name" : "High Risk Countries Raw Materials",
+  "businessDefinition" : "Do you source materials from countries associated with high-risk or conflict?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

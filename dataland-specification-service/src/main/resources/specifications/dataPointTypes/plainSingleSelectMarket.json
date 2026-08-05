@@ -1,0 +1,8 @@
+{
+  "id" : "plainSingleSelectMarket",
+  "name" : "Market",
+  "businessDefinition" : "Does your business focus predominantly on national or international markets?",
+  "dataPointBaseTypeId" : "plainSingleSelect",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoIso10007",
+  "name" : "ISO 10007",
+  "businessDefinition" : "Does your company comply with ISO 10007 standard? If yes, is there verifiable evidence of a third party validation of compliance with this standard?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

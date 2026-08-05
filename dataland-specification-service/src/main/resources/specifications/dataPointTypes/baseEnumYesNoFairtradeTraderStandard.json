@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoFairtradeTraderStandard",
+  "name" : "Fairtrade Trader Standard",
+  "businessDefinition" : "Is your company Fairtrade Trader Standard certified? If so, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

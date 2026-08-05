@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHarmfulSoilChange",
+  "name" : "Harmful Soil Change",
+  "businessDefinition" : "Is there a risk of your company causing a harmful soil change?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

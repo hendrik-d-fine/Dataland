@@ -1,0 +1,8 @@
+{
+  "id" : "plainLksgMostImportantProductsComponentMostImportantProducts",
+  "name" : "Most Important Products",
+  "businessDefinition" : "Please give an overview of the most important products or services in terms of sales that your company manufactures, distributes and/or offers (own operations)",
+  "dataPointBaseTypeId" : "plainLksgMostImportantProductsComponent",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

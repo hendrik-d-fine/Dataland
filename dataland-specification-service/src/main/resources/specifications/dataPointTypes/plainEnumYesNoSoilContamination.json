@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoSoilContamination",
+  "name" : "Soil Contamination",
+  "businessDefinition" : "Does your company have measures in place to prevent soil contamination caused by antibiotics and toxins?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

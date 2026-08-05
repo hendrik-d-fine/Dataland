@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoAdequateWagesMeasures",
+  "name" : "Adequate Wages Measures",
+  "businessDefinition" : "Are any measures taken to prevent the withholding of adequate wages?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

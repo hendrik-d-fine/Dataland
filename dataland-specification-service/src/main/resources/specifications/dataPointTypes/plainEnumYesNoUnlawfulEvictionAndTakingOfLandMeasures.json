@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoUnlawfulEvictionAndTakingOfLandMeasures",
+  "name" : "Unlawful Eviction and Taking of Land - Measures",
+  "businessDefinition" : "Has your company developed and implemented measures that avoid, reduce, mitigate, or remedy direct and indirect negative impacts on the land, and natural resources of indigenous peoples and local communities?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

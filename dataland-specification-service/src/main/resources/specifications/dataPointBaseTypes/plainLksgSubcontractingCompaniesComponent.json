@@ -1,0 +1,12 @@
+{
+  "id" : "plainLksgSubcontractingCompaniesComponent",
+  "name" : "Subcontracting companies per country",
+  "businessDefinition" : "A mapping of country codes to the names of subcontracting companies operating in that country.",
+  "validatedBy" : "kotlin.collections.Map<kotlin.String,kotlin.collections.List<kotlin.String>>",
+  "schema" : {
+    "DE" : [ "String" ]
+  },
+  "example" : {
+    "DE" : [ "Sample Subcontracting Company GmbH" ]
+  }
+}

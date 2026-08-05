@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHeadOfficeInGermany",
+  "name" : "Head Office in Germany",
+  "businessDefinition" : "Is your head office, administrative headquarters, registered office, or subsidiary located in Germany?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

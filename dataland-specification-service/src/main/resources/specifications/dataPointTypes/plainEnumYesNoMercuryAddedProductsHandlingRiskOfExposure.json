@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoMercuryAddedProductsHandlingRiskOfExposure",
+  "name" : "Mercury Added-Products Handling - Risk of Exposure",
+  "businessDefinition" : "Is there a risk of manufacturing, importing or exporting products containing mercury that are not subject to the Annex A Part 1 exemption of the Minamata Convention (BGBI. 2017 II p.610, 611)?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

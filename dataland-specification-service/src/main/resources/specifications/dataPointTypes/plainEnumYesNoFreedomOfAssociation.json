@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoFreedomOfAssociation",
+  "name" : "Freedom Of Association",
+  "businessDefinition" : "Does your company ensure that employees are free to form or join trade unions?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

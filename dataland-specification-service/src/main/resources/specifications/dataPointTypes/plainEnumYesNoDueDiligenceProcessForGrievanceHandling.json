@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoDueDiligenceProcessForGrievanceHandling",
+  "name" : "Due Diligence Process for Grievance Handling",
+  "businessDefinition" : "Are insights from reported complaints used to improve your due diligence process?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

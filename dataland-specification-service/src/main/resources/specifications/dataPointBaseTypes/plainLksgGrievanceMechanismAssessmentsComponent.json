@@ -1,0 +1,18 @@
+{
+  "id" : "plainLksgGrievanceMechanismAssessmentsComponent",
+  "name" : "Grievance mechanism assessments",
+  "businessDefinition" : "A list of grievance mechanism assessments, each covering the affected risk positions, the complaint and measures taken.",
+  "validatedBy" : "kotlin.collections.List<org.dataland.datalandbackend.frameworks.lksg.custom.LksgGrievanceAssessmentMechanism>",
+  "schema" : [ {
+    "riskPositions" : [ "RiskPositionType" ],
+    "specifiedComplaint" : "String",
+    "measuresTaken" : "YesNo",
+    "listedMeasures" : "String"
+  } ],
+  "example" : [ {
+    "riskPositions" : [ "ChildLabor" ],
+    "specifiedComplaint" : "Sample complaint description",
+    "measuresTaken" : "Yes",
+    "listedMeasures" : "Sample measures taken to address the complaint"
+  } ]
+}

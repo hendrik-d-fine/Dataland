@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoSoilSalinization",
+  "name" : "Soil Salinization",
+  "businessDefinition" : "Does your company have measures in place to prevent soil salinization?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

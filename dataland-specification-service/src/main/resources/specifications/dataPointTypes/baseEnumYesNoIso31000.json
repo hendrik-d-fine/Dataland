@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoIso31000",
+  "name" : "ISO 31000",
+  "businessDefinition" : "Is your company ISO 31000 certified? If yes, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

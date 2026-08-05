@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoChildLaborPreventionPolicy",
+  "name" : "Child Labor Prevention Policy",
+  "businessDefinition" : "Does your company have a policy to prevent child labor? If yes, please share the policy with us.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

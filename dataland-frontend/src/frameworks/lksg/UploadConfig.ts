@@ -20,9 +20,8 @@ export const lksgDataModel = [
             description: 'The date until when the information collected is valid',
 
             component: 'DateFormField',
-            required: true,
+            required: false,
             showIf: (): boolean => true,
-            validation: 'required',
           },
           {
             name: 'headOfficeInGermany',

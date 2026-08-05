@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoAccessToExpertiseForGrievanceHandling",
+  "name" : "Access to Expertise for Grievance Handling",
+  "businessDefinition" : "Do the target groups have access to the expertise, advice and information that they need to participate in the grievance procedure in a fair, informed and respectful manner?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

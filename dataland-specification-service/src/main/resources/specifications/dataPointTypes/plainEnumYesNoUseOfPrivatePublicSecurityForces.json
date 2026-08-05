@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoUseOfPrivatePublicSecurityForces",
+  "name" : "Use of Private Public Security Forces",
+  "businessDefinition" : "Does your company use private and/or public security forces to protect company projects?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

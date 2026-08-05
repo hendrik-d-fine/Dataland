@@ -20,7 +20,7 @@ data class LksgGeneralMasterData(
         description = """The date until when the information collected is valid""",
         example = """ "2007-03-05"  """,
     )
-    val dataDate: LocalDate,
+    val dataDate: LocalDate? = null,
     @Suppress("ktlint:standard:max-line-length")
     @field:Schema(
         description = """Is your head office, administrative headquarters, registered office, or subsidiary located in Germany?""",

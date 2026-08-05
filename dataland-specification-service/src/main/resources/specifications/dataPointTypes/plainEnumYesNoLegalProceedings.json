@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoLegalProceedings",
+  "name" : "Legal Proceedings",
+  "businessDefinition" : "Has your company been involved in legal disputes in the last 5 years (including currently ongoing disputes) with third parties regarding human rights and environmental violations?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

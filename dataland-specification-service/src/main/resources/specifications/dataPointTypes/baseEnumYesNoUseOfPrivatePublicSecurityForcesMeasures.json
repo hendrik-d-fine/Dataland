@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoUseOfPrivatePublicSecurityForcesMeasures",
+  "name" : "Use of Private Public Security Forces Measures",
+  "businessDefinition" : "Have other measures been taken to prevent the use of private and/or public security forces that violate human rights?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

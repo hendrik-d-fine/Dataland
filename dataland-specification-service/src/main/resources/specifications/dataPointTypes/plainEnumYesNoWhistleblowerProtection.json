@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoWhistleblowerProtection",
+  "name" : "Whistleblower Protection",
+  "businessDefinition" : "Are whistleblowers effectively protected from disadvantage or punishment?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

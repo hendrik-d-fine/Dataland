@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoResponsibleBusinessAlliance",
+  "name" : "Responsible Business Alliance",
+  "businessDefinition" : "Is your company Responsible Business Alliance (RBA) certified? If so, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

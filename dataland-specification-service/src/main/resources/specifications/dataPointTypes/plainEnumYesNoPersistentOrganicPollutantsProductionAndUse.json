@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoPersistentOrganicPollutantsProductionAndUse",
+  "name" : "Persistent Organic Pollutants Production and Use",
+  "businessDefinition" : "Do you use and/or produce persistent organic pollutants (POPs), i.e. chemical compounds that don´t decompose, or transform very slowly in the environment?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

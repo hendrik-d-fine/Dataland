@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoNaPrivateSecurityForces",
+  "name" : "Private Security Forces",
+  "businessDefinition" : "Have the contractual relationships with private security forces been designed in a way that they comply with the applicable legal framework? (Only in the case of private security forces)",
+  "dataPointBaseTypeId" : "baseEnumYesNoNa",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

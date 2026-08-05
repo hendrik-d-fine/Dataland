@@ -1,0 +1,8 @@
+{
+  "id" : "plainNaceCodesIndustry",
+  "name" : "Industry",
+  "businessDefinition" : "In which industry is your company primarily active (select all that apply)?",
+  "dataPointBaseTypeId" : "plainNaceCodes",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

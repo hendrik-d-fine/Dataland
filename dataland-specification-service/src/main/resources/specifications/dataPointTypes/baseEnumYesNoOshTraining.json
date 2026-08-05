@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoOshTraining",
+  "name" : "OSH Training",
+  "businessDefinition" : "Has your company introduced mandatory training for employees to improve occupational safety?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoWaterConsumptionSpotChecks",
+  "name" : "Water Consumption Spot Checks",
+  "businessDefinition" : "Does your company carry out regular spot checks of water consumption with corresponding documentation?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

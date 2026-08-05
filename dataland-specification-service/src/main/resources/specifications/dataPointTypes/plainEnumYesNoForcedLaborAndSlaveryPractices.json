@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoForcedLaborAndSlaveryPractices",
+  "name" : "Forced Labor and Slavery Practices",
+  "businessDefinition" : "Does your company have practices that lead or may lead to forced labor and/or slavery? The following are included: Creating unacceptable working and living conditions by working in hazardous conditions or within unacceptable accommodations provided by the employer; Excessive levels of overtime; Use of intimidation, threats, and/or punishment; Other types of forced labor (e.g. debt bondage, human trafficking)",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

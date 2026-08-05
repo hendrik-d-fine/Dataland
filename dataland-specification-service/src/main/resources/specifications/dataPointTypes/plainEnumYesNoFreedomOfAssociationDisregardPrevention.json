@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoFreedomOfAssociationDisregardPrevention",
+  "name" : "Freedom of Association Disregard Prevention",
+  "businessDefinition" : "Does your company take measures to prevent the disregard for freedom of association?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

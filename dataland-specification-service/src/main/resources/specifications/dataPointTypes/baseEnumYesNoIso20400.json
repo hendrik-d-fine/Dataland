@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoIso20400",
+  "name" : "ISO 20400",
+  "businessDefinition" : "Does your company comply with ISO 20400 standard? If yes, is there verifiable evidence of a third party validation of compliance with this standard?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainInteger",
+  "name" : "General Integer data point without a source",
+  "businessDefinition" : "A plain integer value, without document support.",
+  "validatedBy" : "java.math.BigInteger",
+  "schema" : "BigInteger",
+  "example" : 100
+}

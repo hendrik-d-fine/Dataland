@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHazardousWasteDisposalOtherWasteImport",
+  "name" : "Hazardous Waste Disposal - Other Waste Import",
+  "businessDefinition" : "Do you import other wastes that require special consideration (household waste, residues from incineration of household waste) (Article 1(2))?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

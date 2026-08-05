@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoRisksIdentified",
+  "name" : "Risks Identified",
+  "businessDefinition" : "Were risks identified during this period?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

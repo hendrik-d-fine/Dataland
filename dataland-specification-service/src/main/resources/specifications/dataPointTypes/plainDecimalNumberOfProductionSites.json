@@ -1,0 +1,8 @@
+{
+  "id" : "plainDecimalNumberOfProductionSites",
+  "name" : "Number of Production Sites",
+  "businessDefinition" : "How many production sites are there?",
+  "dataPointBaseTypeId" : "plainDecimal",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

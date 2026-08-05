@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHighRiskCountriesProcurement",
+  "name" : "High Risk Countries Procurement",
+  "businessDefinition" : "Does your company procure from countries with high risks for human rights and/or the environment?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainLksgGrievanceMechanismAssessmentsComponentComplaintsRiskPosition",
+  "name" : "Complaints Risk Position",
+  "businessDefinition" : "Please define the respective risk position of each complaint",
+  "dataPointBaseTypeId" : "plainLksgGrievanceMechanismAssessmentsComponent",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

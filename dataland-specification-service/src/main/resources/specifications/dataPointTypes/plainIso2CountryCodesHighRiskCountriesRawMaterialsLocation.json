@@ -1,0 +1,8 @@
+{
+  "id" : "plainIso2CountryCodesHighRiskCountriesRawMaterialsLocation",
+  "name" : "High Risk Countries Raw Materials Location",
+  "businessDefinition" : "From which conflict/high-risk regions do you source your raw materials?",
+  "dataPointBaseTypeId" : "plainIso2CountryCodes",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

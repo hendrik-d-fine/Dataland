@@ -1,0 +1,8 @@
+{
+  "id" : "plainDecimal",
+  "name" : "General decimal data point without a source",
+  "businessDefinition" : "A plain decimal value, without document support.",
+  "validatedBy" : "java.math.BigDecimal",
+  "schema" : "BigDecimal",
+  "example" : 100.5
+}

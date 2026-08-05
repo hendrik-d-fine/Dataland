@@ -4,6 +4,7 @@ import org.dataland.frameworktoolbox.intermediate.components.requireDocumentSupp
 import org.dataland.frameworktoolbox.intermediate.datapoints.NoDocumentSupport
 import org.dataland.frameworktoolbox.specific.datamodel.TypeReference
 import org.dataland.frameworktoolbox.specific.datamodel.elements.DataClassBuilder
+import org.dataland.frameworktoolbox.specific.specification.elements.CategoryBuilder
 
 /**
  * Represents the Lksg risk positions component
@@ -36,6 +37,14 @@ class LksgRiskAssessmentsComponent(
                     ),
                 ),
             ),
+        )
+    }
+
+    override fun generateDefaultSpecification(specificationCategoryBuilder: CategoryBuilder) {
+        requireDocumentSupportIn(setOf(NoDocumentSupport))
+        specificationCategoryBuilder.addDefaultDatapointAndSpecification(
+            this,
+            "LksgRiskOrViolationAssessment",
         )
     }
 }

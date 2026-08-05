@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoEmployeeSUnder15",
+  "name" : "Employee(s) Under 15",
+  "businessDefinition" : "With regard to the place of employment and the applicable laws: do you employ school-age children or children under the age of 15 on a full-time basis?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

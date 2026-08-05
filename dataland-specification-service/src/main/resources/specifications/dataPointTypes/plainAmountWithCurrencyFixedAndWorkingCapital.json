@@ -1,0 +1,8 @@
+{
+  "id" : "plainAmountWithCurrencyFixedAndWorkingCapital",
+  "name" : "Fixed and Working Capital",
+  "businessDefinition" : "Combined fixed and working capital (only for own operations) in same currency than total revenue",
+  "dataPointBaseTypeId" : "plainAmountWithCurrency",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

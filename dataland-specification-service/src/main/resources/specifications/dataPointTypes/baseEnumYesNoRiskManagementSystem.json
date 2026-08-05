@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoRiskManagementSystem",
+  "name" : "Risk Management System",
+  "businessDefinition" : "Does your company have an adequate and effective Risk Management system?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

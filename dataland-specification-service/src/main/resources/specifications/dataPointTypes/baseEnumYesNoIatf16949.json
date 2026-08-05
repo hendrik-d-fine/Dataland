@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoIatf16949",
+  "name" : "IATF 16949",
+  "businessDefinition" : "Is your company IATF 16949 certified? If so, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

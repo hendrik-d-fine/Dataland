@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoGlobalOrganicTextileStandardGots",
+  "name" : "Global Organic Textile Standard (GOTS)",
+  "businessDefinition" : "Is your company Global Organic Textile Standard (GOTS) certified? If so, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoForcedLaborAndSlaveryPreventionProvisionSocialRoomsAndToilets",
+  "name" : "Forced Labor and Slavery Prevention - Provision Social Rooms and Toilets",
+  "businessDefinition" : "Do you provide social rooms and toilets that can be used at any time?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

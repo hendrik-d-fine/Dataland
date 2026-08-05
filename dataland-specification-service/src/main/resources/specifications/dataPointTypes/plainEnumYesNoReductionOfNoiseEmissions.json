@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoReductionOfNoiseEmissions",
+  "name" : "Reduction of Noise Emissions",
+  "businessDefinition" : "Has your company implemented structural measures to reduce noise emissions?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoBetterWorkProgram",
+  "name" : "Better Work Program",
+  "businessDefinition" : "Do the production sites where the goods are produced participate in the Better Work Program? If yes, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

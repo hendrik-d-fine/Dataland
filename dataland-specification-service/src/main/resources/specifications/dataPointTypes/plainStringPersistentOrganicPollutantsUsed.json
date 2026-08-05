@@ -1,0 +1,8 @@
+{
+  "id" : "plainStringPersistentOrganicPollutantsUsed",
+  "name" : "Persistent Organic Pollutants Used",
+  "businessDefinition" : "If yes, which organic pollutants are used and/or produced?",
+  "dataPointBaseTypeId" : "plainString",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

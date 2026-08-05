@@ -1,0 +1,8 @@
+{
+  "id" : "plainStringWaterSavingMeasuresName",
+  "name" : "Water Saving Measures Name",
+  "businessDefinition" : "If yes, which ones?",
+  "dataPointBaseTypeId" : "plainString",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

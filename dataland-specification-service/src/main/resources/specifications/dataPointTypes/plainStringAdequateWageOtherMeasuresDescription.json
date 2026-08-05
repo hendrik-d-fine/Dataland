@@ -1,0 +1,8 @@
+{
+  "id" : "plainStringAdequateWageOtherMeasuresDescription",
+  "name" : "Adequate Wage Other Measures Description",
+  "businessDefinition" : "Please list other measures (if available) you take to prevent withholding adequate wages?",
+  "dataPointBaseTypeId" : "plainString",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

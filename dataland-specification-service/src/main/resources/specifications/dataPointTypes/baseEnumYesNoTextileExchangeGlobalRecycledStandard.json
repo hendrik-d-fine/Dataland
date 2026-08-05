@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoTextileExchangeGlobalRecycledStandard",
+  "name" : "Textile Exchange Global Recycled Standard",
+  "businessDefinition" : "Is your company Textile Exchange Global Recycled Standard certified? If so, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

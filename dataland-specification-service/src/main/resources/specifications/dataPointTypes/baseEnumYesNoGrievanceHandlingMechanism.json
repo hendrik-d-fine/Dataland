@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoGrievanceHandlingMechanism",
+  "name" : "Grievance Handling Mechanism",
+  "businessDefinition" : "Has your company implemented a grievance handling mechanism (e.g. anonymous whistleblowing system) to protect human and environmental rights in your business?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoFreedomOfAssociationOtherMeasures",
+  "name" : "Freedom of Association Other Measures",
+  "businessDefinition" : "Have other measures been taken to prevent the disregard for freedom of association?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoHumanRightsTraining",
+  "name" : "Human Rights Training",
+  "businessDefinition" : "Are security forces trained on human rights?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

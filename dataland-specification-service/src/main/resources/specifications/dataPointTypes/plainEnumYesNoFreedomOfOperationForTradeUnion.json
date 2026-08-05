@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoFreedomOfOperationForTradeUnion",
+  "name" : "Freedom of Operation for Trade Union",
+  "businessDefinition" : "Does your company ensure that trade unions are free to operate in accordance with the law in the place of employment?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

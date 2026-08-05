@@ -13,8 +13,8 @@ import org.dataland.datalandbackend.model.metainformation.DataMetaInformation
 import org.dataland.datalandbackend.services.CompanyQueryManager
 import org.dataland.datalandbackend.services.DataExportService
 import org.dataland.datalandbackend.services.DataExportStore
-import org.dataland.datalandbackend.services.DataManager
 import org.dataland.datalandbackend.services.DataMetaInformationManager
+import org.dataland.datalandbackend.services.datapoints.AssembledDataManager
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Qualifier
 import org.springframework.http.ResponseEntity
@@ -33,9 +33,9 @@ import org.springframework.web.bind.annotation.RestController
 class LksgDataController
     @Autowired
     constructor(
-        datasetStorageService: DataManager,
+        datasetStorageService: AssembledDataManager,
         dataMetaInformationManager: DataMetaInformationManager,
-        @Qualifier("UnassembledExportService") dataExportService: DataExportService<LksgData>,
+        @Qualifier("AssembledExportService") dataExportService: DataExportService<LksgData>,
         dataExportStore: DataExportStore,
         companyQueryManager: CompanyQueryManager,
     ) : DataController<LksgData>(

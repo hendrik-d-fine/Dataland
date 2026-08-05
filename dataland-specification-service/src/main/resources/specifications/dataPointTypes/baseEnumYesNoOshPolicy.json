@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoOshPolicy",
+  "name" : "OSH Policy",
+  "businessDefinition" : "Has your company implemented and enforced a formal occupational health and safety (OSH) policy that complies with local laws, industry requirements, and international standards?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

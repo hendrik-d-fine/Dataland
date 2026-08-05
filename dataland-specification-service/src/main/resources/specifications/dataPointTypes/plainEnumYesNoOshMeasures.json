@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoOshMeasures",
+  "name" : "OSH Measures",
+  "businessDefinition" : "Does your company take measures to prevent the disregard for occupational health and safety?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

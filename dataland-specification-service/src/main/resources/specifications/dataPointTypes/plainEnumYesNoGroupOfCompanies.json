@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoGroupOfCompanies",
+  "name" : "Group of Companies",
+  "businessDefinition" : "Do you belong to a group of companies?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainNaceCodes",
+  "name" : "General NACE codes data point without a source",
+  "businessDefinition" : "A plain list of NACE industry codes, without document support.",
+  "validatedBy" : "kotlin.collections.List<kotlin.String>",
+  "schema" : [ "String" ],
+  "example" : [ "47.23", "47.78" ]
+}

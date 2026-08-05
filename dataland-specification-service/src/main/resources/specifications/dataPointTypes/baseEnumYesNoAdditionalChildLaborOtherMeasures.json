@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoAdditionalChildLaborOtherMeasures",
+  "name" : "Additional Child Labor Other Measures",
+  "businessDefinition" : "Have any other measures been taken to prevent the employment of children under the locally applicable minimum age?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainMultiSelect",
+  "name" : "General multi-select data point without a source",
+  "businessDefinition" : "A plain set of values representing multiple choices from pre-defined options, without document support.",
+  "validatedBy" : "kotlin.collections.List<kotlin.String>",
+  "schema" : [ "String" ],
+  "example" : [ "Option 1", "Option 2" ]
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoAmforiBsci",
+  "name" : "Amfori BSCI",
+  "businessDefinition" : "Does your company have a current amfori BSCI audit report? If so, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

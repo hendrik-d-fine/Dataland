@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoRegularWagesProcessFlow",
+  "name" : "Regular Wages Process Flow",
+  "businessDefinition" : "Has your company implemented the payment of wages through standardized and regular process flows?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

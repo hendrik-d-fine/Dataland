@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoNaFixedPieceworkWages",
+  "name" : "Fixed Piecework Wages",
+  "businessDefinition" : "Does your company have fixed piecework wages (pay per unit)?",
+  "dataPointBaseTypeId" : "plainEnumYesNoNa",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

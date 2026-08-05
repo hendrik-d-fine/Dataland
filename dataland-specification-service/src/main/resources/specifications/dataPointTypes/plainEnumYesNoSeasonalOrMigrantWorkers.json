@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoSeasonalOrMigrantWorkers",
+  "name" : "Seasonal or Migrant Workers",
+  "businessDefinition" : "Do your company employ seasonal or migrant workers?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

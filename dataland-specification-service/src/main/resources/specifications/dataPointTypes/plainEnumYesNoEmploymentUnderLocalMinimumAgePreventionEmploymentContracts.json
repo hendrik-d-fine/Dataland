@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoEmploymentUnderLocalMinimumAgePreventionEmploymentContracts",
+  "name" : "Employment Under Local Minimum Age Prevention -  Employment Contracts",
+  "businessDefinition" : "Do you have a formal recruitment process, including employment contracts?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,282 @@
+{
+  "id" : "lksg",
+  "name" : "LkSG",
+  "businessDefinition" : "Lieferkettensorgfaltspflichtengesetz",
+  "referencedReportJsonPath" : null,
+  "schema" : {
+    "general" : {
+      "masterData" : {
+        "dataDate" : "plainDateDataDate",
+        "headOfficeInGermany" : "plainEnumYesNoHeadOfficeInGermany",
+        "groupOfCompanies" : "plainEnumYesNoGroupOfCompanies",
+        "groupOfCompaniesName" : "plainStringGroupOfCompaniesName",
+        "industry" : "plainNaceCodesIndustry",
+        "numberOfEmployees" : "plainDecimalNumberOfEmployees",
+        "seasonalOrMigrantWorkers" : "plainEnumYesNoSeasonalOrMigrantWorkers",
+        "shareOfTemporaryWorkers" : "plainSingleSelectShareOfTemporaryWorkers",
+        "annualTotalRevenue" : "plainAmountWithCurrencyAnnualTotalRevenue",
+        "fixedAndWorkingCapital" : "plainAmountWithCurrencyFixedAndWorkingCapital"
+      },
+      "productionSpecific" : {
+        "manufacturingCompany" : "plainEnumYesNoManufacturingCompany",
+        "capacity" : "plainStringCapacity",
+        "productionViaSubcontracting" : "plainEnumYesNoProductionViaSubcontracting",
+        "subcontractingCompaniesCountries" : "plainLksgSubcontractingCompaniesComponentSubcontractingCompaniesCountries",
+        "productionSites" : "plainEnumYesNoProductionSites",
+        "numberOfProductionSites" : "plainDecimalNumberOfProductionSites",
+        "listOfProductionSites" : "plainLksgProductionSitesComponentListOfProductionSites",
+        "market" : "plainSingleSelectMarket",
+        "specificProcurement" : "plainMultiSelectSpecificProcurement"
+      },
+      "productionSpecificOwnOperations" : {
+        "mostImportantProducts" : "plainLksgMostImportantProductsComponentMostImportantProducts",
+        "procurementCategories" : "plainLksgProcurementCategoriesComponentProcurementCategories"
+      }
+    },
+    "governance" : {
+      "riskManagementOwnOperations" : {
+        "riskManagementSystem" : "baseEnumYesNoRiskManagementSystem",
+        "riskAnalysisInFiscalYear" : "plainEnumYesNoRiskAnalysisInFiscalYear",
+        "risksIdentified" : "plainEnumYesNoRisksIdentified",
+        "identifiedRisks" : "plainLksgRiskOrViolationAssessmentIdentifiedRisks",
+        "regulatedRiskManagementResponsibility" : "plainEnumYesNoRegulatedRiskManagementResponsibility"
+      },
+      "grievanceMechanismOwnOperations" : {
+        "grievanceHandlingMechanism" : "baseEnumYesNoGrievanceHandlingMechanism",
+        "grievanceHandlingReportingAccessible" : "plainEnumYesNoGrievanceHandlingReportingAccessible",
+        "appropriateGrievanceHandlingInformation" : "plainEnumYesNoAppropriateGrievanceHandlingInformation",
+        "appropriateGrievanceHandlingSupport" : "plainEnumYesNoAppropriateGrievanceHandlingSupport",
+        "accessToExpertiseForGrievanceHandling" : "plainEnumYesNoAccessToExpertiseForGrievanceHandling",
+        "grievanceComplaints" : "plainEnumYesNoGrievanceComplaints",
+        "complaintsNumber" : "plainDecimalComplaintsNumber",
+        "complaintsRiskPosition" : "plainLksgGrievanceMechanismAssessmentsComponentComplaintsRiskPosition",
+        "publicAccessToGrievanceHandling" : "plainEnumYesNoPublicAccessToGrievanceHandling",
+        "whistleblowerProtection" : "plainEnumYesNoWhistleblowerProtection",
+        "dueDiligenceProcessForGrievanceHandling" : "plainEnumYesNoDueDiligenceProcessForGrievanceHandling"
+      },
+      "certificationsPoliciesAndResponsibilities" : {
+        "codeOfConduct" : "baseEnumYesNoCodeOfConduct",
+        "codeOfConductTraining" : "plainEnumYesNoCodeOfConductTraining",
+        "supplierCodeOfConduct" : "baseEnumYesNoSupplierCodeOfConduct",
+        "policyStatement" : "baseEnumYesNoPolicyStatement",
+        "humanRightsStrategy" : "plainStringHumanRightsStrategy",
+        "environmentalImpactPolicy" : "baseEnumYesNoEnvironmentalImpactPolicy",
+        "fairWorkingConditionsPolicy" : "baseEnumYesNoFairWorkingConditionsPolicy",
+        "responsibilitiesForFairWorkingConditions" : "plainEnumYesNoResponsibilitiesForFairWorkingConditions",
+        "responsibilitiesForTheEnvironment" : "plainEnumYesNoResponsibilitiesForTheEnvironment",
+        "responsibilitiesForOccupationalSafety" : "plainEnumYesNoResponsibilitiesForOccupationalSafety",
+        "amforiBsci" : "baseEnumYesNoAmforiBsci",
+        "betterWorkProgram" : "baseEnumYesNoBetterWorkProgram",
+        "ecoManagementAndAuditSchemeEmas" : "baseEnumYesNoEcoManagementAndAuditSchemeEmas",
+        "flaFairLaborCodeAndComplianceBenchmarksForAgriculture" : "baseEnumYesNoFlaFairLaborCodeAndComplianceBenchmarksForAgriculture",
+        "flaFairLaborCodeAndComplianceBenchmarksForManufacturing" : "baseEnumYesNoFlaFairLaborCodeAndComplianceBenchmarksForManufacturing",
+        "fairtradeTraderStandard" : "baseEnumYesNoFairtradeTraderStandard",
+        "globalOrganicTextileStandardGots" : "baseEnumYesNoGlobalOrganicTextileStandardGots",
+        "gotsOrganicInConversion" : "baseEnumYesNoGotsOrganicInConversion",
+        "iatf16949" : "baseEnumYesNoIatf16949",
+        "iso10007" : "baseEnumYesNoIso10007",
+        "iso14001" : "baseEnumYesNoIso14001",
+        "iso20400" : "baseEnumYesNoIso20400",
+        "iso26000" : "baseEnumYesNoIso26000",
+        "iso31000" : "baseEnumYesNoIso31000",
+        "iso37001" : "baseEnumYesNoIso37001",
+        "iso37002" : "baseEnumYesNoIso37002",
+        "iso37301" : "baseEnumYesNoIso37301",
+        "iso44001" : "baseEnumYesNoIso44001",
+        "iso45001" : "baseEnumYesNoIso45001",
+        "iso50001" : "baseEnumYesNoIso50001",
+        "iso9001" : "baseEnumYesNoIso9001",
+        "isoIec27001" : "baseEnumYesNoIsoIec27001",
+        "isoIecTs33061" : "baseEnumYesNoIsoIecTs33061",
+        "isoIecIeee15288" : "baseEnumYesNoIsoIecIeee15288",
+        "naturlandStandards" : "baseEnumYesNoNaturlandStandards",
+        "responsibleBusinessAlliance" : "baseEnumYesNoResponsibleBusinessAlliance",
+        "sa8000" : "baseEnumYesNoSa8000",
+        "sedexMembersEthicalTradeAuditSmeta" : "baseEnumYesNoSedexMembersEthicalTradeAuditSmeta",
+        "textileExchangeGlobalRecycledStandard" : "baseEnumYesNoTextileExchangeGlobalRecycledStandard",
+        "znuStandardNachhaltigerWirtschaften" : "baseEnumYesNoZnuStandardNachhaltigerWirtschaften",
+        "additionalCertifications" : "baseEnumYesNoAdditionalCertifications"
+      },
+      "generalViolations" : {
+        "legalProceedings" : "plainEnumYesNoLegalProceedings",
+        "humanRightsOrEnvironmentalViolations" : "plainEnumYesNoHumanRightsOrEnvironmentalViolations",
+        "humanRightsOrEnvironmentalViolationsDefinition" : "plainLksgRiskOrViolationAssessmentHumanRightsOrEnvironmentalViolationsDefinition",
+        "highRiskCountriesRawMaterials" : "plainEnumYesNoHighRiskCountriesRawMaterials",
+        "highRiskCountriesRawMaterialsLocation" : "plainIso2CountryCodesHighRiskCountriesRawMaterialsLocation",
+        "highRiskCountriesActivity" : "plainEnumYesNoHighRiskCountriesActivity",
+        "highRiskCountries" : "plainIso2CountryCodesHighRiskCountries",
+        "highRiskCountriesProcurement" : "plainEnumYesNoHighRiskCountriesProcurement",
+        "highRiskCountriesProcurementName" : "plainIso2CountryCodesHighRiskCountriesProcurementName"
+      }
+    },
+    "social" : {
+      "childLabor" : {
+        "employeeSUnder18" : "plainEnumYesNoEmployeeSUnder18",
+        "employeeSUnder15" : "plainEnumYesNoEmployeeSUnder15",
+        "employeeSUnder18InApprenticeship" : "plainEnumYesNoEmployeeSUnder18InApprenticeship",
+        "worstFormsOfChildLaborProhibition" : "plainEnumYesNoWorstFormsOfChildLaborProhibition",
+        "worstFormsOfChildLaborForms" : "plainStringWorstFormsOfChildLaborForms",
+        "measuresForPreventionOfEmploymentUnderLocalMinimumAge" : "plainEnumYesNoMeasuresForPreventionOfEmploymentUnderLocalMinimumAge",
+        "employmentUnderLocalMinimumAgePreventionEmploymentContracts" : "plainEnumYesNoEmploymentUnderLocalMinimumAgePreventionEmploymentContracts",
+        "employmentUnderLocalMinimumAgePreventionJobDescription" : "plainEnumYesNoEmploymentUnderLocalMinimumAgePreventionJobDescription",
+        "employmentUnderLocalMinimumAgePreventionIdentityDocuments" : "plainEnumYesNoEmploymentUnderLocalMinimumAgePreventionIdentityDocuments",
+        "employmentUnderLocalMinimumAgePreventionTraining" : "baseEnumYesNoEmploymentUnderLocalMinimumAgePreventionTraining",
+        "employmentUnderLocalMinimumAgePreventionCheckingOfLegalMinimumAge" : "plainEnumYesNoEmploymentUnderLocalMinimumAgePreventionCheckingOfLegalMinimumAge",
+        "childLaborPreventionPolicy" : "baseEnumYesNoChildLaborPreventionPolicy",
+        "additionalChildLaborOtherMeasures" : "baseEnumYesNoAdditionalChildLaborOtherMeasures",
+        "additionalChildLaborOtherMeasuresDescription" : "plainStringAdditionalChildLaborOtherMeasuresDescription"
+      },
+      "forcedLaborSlavery" : {
+        "forcedLaborAndSlaveryPractices" : "plainEnumYesNoForcedLaborAndSlaveryPractices",
+        "forcedLaborAndSlaveryPracticesSpecification" : "plainStringForcedLaborAndSlaveryPracticesSpecification",
+        "forcedLaborAndSlaveryPreventionMeasures" : "plainEnumYesNoForcedLaborAndSlaveryPreventionMeasures",
+        "forcedLaborAndSlaveryPreventionEmploymentContracts" : "plainEnumYesNoForcedLaborAndSlaveryPreventionEmploymentContracts",
+        "forcedLaborAndSlaveryPreventionIdentityDocuments" : "plainEnumYesNoForcedLaborAndSlaveryPreventionIdentityDocuments",
+        "forcedLaborAndSlaveryPreventionFreeMovement" : "plainEnumYesNoForcedLaborAndSlaveryPreventionFreeMovement",
+        "forcedLaborAndSlaveryPreventionProvisionSocialRoomsAndToilets" : "plainEnumYesNoForcedLaborAndSlaveryPreventionProvisionSocialRoomsAndToilets",
+        "forcedLaborAndSlaveryPreventionTraining" : "baseEnumYesNoForcedLaborAndSlaveryPreventionTraining",
+        "forcedLaborPreventionPolicy" : "baseEnumYesNoForcedLaborPreventionPolicy",
+        "forcedLaborAndSlaveryPreventionOtherMeasures" : "baseEnumYesNoForcedLaborAndSlaveryPreventionOtherMeasures",
+        "forcedLaborAndSlaveryPreventionOtherMeasuresDescription" : "plainFreeTextForcedLaborAndSlaveryPreventionOtherMeasuresDescription"
+      },
+      "withholdingAdequateWages" : {
+        "adequateWageWithholding" : "plainEnumYesNoAdequateWageWithholding",
+        "adequateWagesMeasures" : "plainEnumYesNoAdequateWagesMeasures",
+        "documentedWorkingHoursAndWages" : "baseEnumYesNoDocumentedWorkingHoursAndWages",
+        "adequateLivingWage" : "baseEnumYesNoAdequateLivingWage",
+        "regularWagesProcessFlow" : "plainEnumYesNoRegularWagesProcessFlow",
+        "fixedHourlyWages" : "plainEnumYesNoNaFixedHourlyWages",
+        "fixedPieceworkWages" : "plainEnumYesNoNaFixedPieceworkWages",
+        "adequateWageOtherMeasures" : "baseEnumYesNoAdequateWageOtherMeasures",
+        "adequateWageOtherMeasuresDescription" : "plainStringAdequateWageOtherMeasuresDescription"
+      },
+      "disregardForOccupationalHealthSafety" : {
+        "lowSkillWork" : "plainEnumYesNoLowSkillWork",
+        "hazardousMachines" : "plainEnumYesNoHazardousMachines",
+        "oshMeasures" : "plainEnumYesNoOshMeasures",
+        "oshPolicy" : "baseEnumYesNoOshPolicy",
+        "oshTraining" : "baseEnumYesNoOshTraining",
+        "healthAndSafetyPolicy" : "baseEnumYesNoHealthAndSafetyPolicy",
+        "otherOshMeasures" : "baseEnumYesNoOtherOshMeasures",
+        "otherOshMeasuresDescription" : "plainStringOtherOshMeasuresDescription",
+        "under10WorkplaceAccidents" : "plainEnumYesNoUnder10WorkplaceAccidents"
+      },
+      "disregardForFreedomOfAssociation" : {
+        "freedomOfAssociation" : "plainEnumYesNoFreedomOfAssociation",
+        "employeeRepresentation" : "plainDecimalEmployeeRepresentation",
+        "freedomOfAssociationDisregardPrevention" : "plainEnumYesNoFreedomOfAssociationDisregardPrevention",
+        "discriminationForTradeUnionMembers" : "plainEnumYesNoDiscriminationForTradeUnionMembers",
+        "freedomOfOperationForTradeUnion" : "plainEnumYesNoFreedomOfOperationForTradeUnion",
+        "freedomOfAssociationTraining" : "baseEnumYesNoFreedomOfAssociationTraining",
+        "worksCouncil" : "baseEnumYesNoWorksCouncil",
+        "freedomOfAssociationOtherMeasures" : "baseEnumYesNoFreedomOfAssociationOtherMeasures",
+        "freedomOfAssociationOtherMeasuresDescription" : "plainStringFreedomOfAssociationOtherMeasuresDescription"
+      },
+      "unequalTreatmentOfEmployment" : {
+        "unequalTreatmentOfEmployment" : "plainEnumYesNoUnequalTreatmentOfEmployment",
+        "unequalTreatmentOfEmploymentPreventionMeasures" : "plainEnumYesNoUnequalTreatmentOfEmploymentPreventionMeasures",
+        "diversityAndInclusionRole" : "plainEnumYesNoDiversityAndInclusionRole",
+        "preventionOfMistreatments" : "plainEnumYesNoPreventionOfMistreatments",
+        "unequalTreatmentPreventionTraining" : "baseEnumYesNoUnequalTreatmentPreventionTraining",
+        "equalOpportunitiesOfficer" : "plainEnumYesNoEqualOpportunitiesOfficer",
+        "equalEmploymentPolicy" : "baseEnumYesNoEqualEmploymentPolicy",
+        "unequalTreatmentPreventionOtherMeasures" : "baseEnumYesNoUnequalTreatmentPreventionOtherMeasures",
+        "unequalTreatmentPreventionOtherMeasuresDescription" : "plainStringUnequalTreatmentPreventionOtherMeasuresDescription"
+      },
+      "contaminationOfSoilWaterAirNoiseEmissionsExcessiveWaterConsumption" : {
+        "harmfulSoilChange" : "plainEnumYesNoHarmfulSoilChange",
+        "soilDegradation" : "plainEnumYesNoSoilDegradation",
+        "soilErosion" : "plainEnumYesNoSoilErosion",
+        "soilBorneDiseases" : "plainEnumYesNoSoilBorneDiseases",
+        "soilContamination" : "plainEnumYesNoSoilContamination",
+        "soilSalinization" : "plainEnumYesNoSoilSalinization",
+        "soilProtectionPolicy" : "baseEnumYesNoSoilProtectionPolicy",
+        "soilSpotChecks" : "baseEnumYesNoSoilSpotChecks",
+        "harmfulWaterPollution" : "plainEnumYesNoHarmfulWaterPollution",
+        "fertilizersOrPollutants" : "plainEnumYesNoFertilizersOrPollutants",
+        "wasteWaterFiltration" : "plainEnumYesNoWasteWaterFiltration",
+        "waterProtectionPolicy" : "baseEnumYesNoWaterProtectionPolicy",
+        "waterSpotChecks" : "baseEnumYesNoWaterSpotChecks",
+        "harmfulAirPollution" : "plainEnumYesNoHarmfulAirPollution",
+        "airFiltration" : "plainEnumYesNoAirFiltration",
+        "airQualityProtectionPolicy" : "baseEnumYesNoAirQualityProtectionPolicy",
+        "airQualitySpotChecks" : "baseEnumYesNoAirQualitySpotChecks",
+        "harmfulNoiseEmission" : "plainEnumYesNoHarmfulNoiseEmission",
+        "reductionOfNoiseEmissions" : "plainEnumYesNoReductionOfNoiseEmissions",
+        "noiseReductionPolicy" : "baseEnumYesNoNoiseReductionPolicy",
+        "noiseEmissionsSpotChecks" : "baseEnumYesNoNoiseEmissionsSpotChecks",
+        "excessiveWaterConsumption" : "plainEnumYesNoExcessiveWaterConsumption",
+        "waterSavingMeasures" : "plainEnumYesNoWaterSavingMeasures",
+        "waterSavingMeasuresName" : "plainStringWaterSavingMeasuresName",
+        "waterUseReductionPolicy" : "baseEnumYesNoWaterUseReductionPolicy",
+        "waterConsumptionSpotChecks" : "baseEnumYesNoWaterConsumptionSpotChecks",
+        "waterSources" : "plainEnumYesNoWaterSources",
+        "contaminationPreventionMeasures" : "baseEnumYesNoContaminationPreventionMeasures",
+        "contaminationPreventionMeasuresDescription" : "plainStringContaminationPreventionMeasuresDescription"
+      },
+      "unlawfulEvictionDeprivationOfLandForestAndWater" : {
+        "unlawfulEvictionAndTakingOfLand" : "plainEnumYesNoUnlawfulEvictionAndTakingOfLand",
+        "unlawfulEvictionAndTakingOfLandRisk" : "plainStringUnlawfulEvictionAndTakingOfLandRisk",
+        "unlawfulEvictionAndTakingOfLandMeasures" : "plainEnumYesNoUnlawfulEvictionAndTakingOfLandMeasures",
+        "modelContractsForLandPurchaseOrLeasing" : "baseEnumYesNoModelContractsForLandPurchaseOrLeasing",
+        "involvementOfLocalsInDecisionMaking" : "plainEnumYesNoInvolvementOfLocalsInDecisionMaking",
+        "governanceOfTenurePolicy" : "baseEnumYesNoGovernanceOfTenurePolicy",
+        "unlawfulEvictionAndTakingOfLandOtherMeasures" : "baseEnumYesNoUnlawfulEvictionAndTakingOfLandOtherMeasures",
+        "unlawfulEvictionAndTakingOfLandOtherMeasuresDescription" : "plainStringUnlawfulEvictionAndTakingOfLandOtherMeasuresDescription"
+      },
+      "useOfPrivatePublicSecurityForcesWithDisregardForHumanRights" : {
+        "useOfPrivatePublicSecurityForces" : "plainEnumYesNoUseOfPrivatePublicSecurityForces",
+        "useOfPrivatePublicSecurityForcesAndRiskOfViolationOfHumanRights" : "plainEnumYesNoUseOfPrivatePublicSecurityForcesAndRiskOfViolationOfHumanRights",
+        "instructionOfSecurityForces" : "baseEnumYesNoInstructionOfSecurityForces",
+        "humanRightsTraining" : "baseEnumYesNoHumanRightsTraining",
+        "stateSecurityForces" : "plainEnumYesNoNaStateSecurityForces",
+        "privateSecurityForces" : "baseEnumYesNoNaPrivateSecurityForces",
+        "useOfPrivatePublicSecurityForcesMeasures" : "baseEnumYesNoUseOfPrivatePublicSecurityForcesMeasures",
+        "useOfPrivatePublicSecurityForcesMeasuresDescription" : "plainFreeTextUseOfPrivatePublicSecurityForcesMeasuresDescription"
+      }
+    },
+    "environmental" : {
+      "useOfMercuryMercuryWasteMinamataConvention" : {
+        "mercuryAndMercuryWasteHandling" : "plainEnumYesNoMercuryAndMercuryWasteHandling",
+        "mercuryAddedProductsHandling" : "plainEnumYesNoMercuryAddedProductsHandling",
+        "mercuryAddedProductsHandlingRiskOfExposure" : "plainEnumYesNoMercuryAddedProductsHandlingRiskOfExposure",
+        "mercuryAddedProductsHandlingRiskOfDisposal" : "plainEnumYesNoMercuryAddedProductsHandlingRiskOfDisposal",
+        "mercuryAndMercuryCompoundsProductionAndUse" : "plainEnumYesNoMercuryAndMercuryCompoundsProductionAndUse",
+        "mercuryAndMercuryCompoundsProductionAndUseRiskOfExposure" : "plainEnumYesNoMercuryAndMercuryCompoundsProductionAndUseRiskOfExposure",
+        "mercuryAndMercuryWasteUsePreventionMeasures" : "plainEnumYesNoMercuryAndMercuryWasteUsePreventionMeasures",
+        "mercuryAndMercuryWasteHandlingPolicy" : "baseEnumYesNoMercuryAndMercuryWasteHandlingPolicy",
+        "mercuryAndMercuryWasteUsePreventionOtherMeasures" : "baseEnumYesNoMercuryAndMercuryWasteUsePreventionOtherMeasures",
+        "mercuryAndMercuryWasteUsePreventionOtherMeasuresDescription" : "plainStringMercuryAndMercuryWasteUsePreventionOtherMeasuresDescription"
+      },
+      "productionAndUseOfPersistentOrganicPollutantsPopsConvention" : {
+        "persistentOrganicPollutantsProductionAndUse" : "plainEnumYesNoPersistentOrganicPollutantsProductionAndUse",
+        "persistentOrganicPollutantsUsed" : "plainStringPersistentOrganicPollutantsUsed",
+        "persistentOrganicPollutantsProductionAndUseRiskOfExposure" : "plainEnumYesNoPersistentOrganicPollutantsProductionAndUseRiskOfExposure",
+        "persistentOrganicPollutantsProductionAndUseRiskOfDisposal" : "plainEnumYesNoPersistentOrganicPollutantsProductionAndUseRiskOfDisposal",
+        "persistentOrganicPollutantsUsePreventionMeasures" : "plainEnumYesNoPersistentOrganicPollutantsUsePreventionMeasures",
+        "persistentOrganicPollutantsUsePolicy" : "baseEnumYesNoPersistentOrganicPollutantsUsePolicy",
+        "persistentOrganicPollutantsUsePreventionOtherMeasures" : "baseEnumYesNoPersistentOrganicPollutantsUsePreventionOtherMeasures",
+        "persistentOrganicPollutantsUsePreventionOtherMeasuresDescription" : "plainFreeTextPersistentOrganicPollutantsUsePreventionOtherMeasuresDescription"
+      },
+      "exportImportOfHazardousWasteBaselConvention" : {
+        "persistentOrganicPollutantsProductionAndUseTransboundaryMovements" : "plainEnumYesNoPersistentOrganicPollutantsProductionAndUseTransboundaryMovements",
+        "persistentOrganicPollutantsProductionAndUseRiskForImportingState" : "plainEnumYesNoPersistentOrganicPollutantsProductionAndUseRiskForImportingState",
+        "hazardousWasteTransboundaryMovementsLocatedOecdEuLiechtenstein" : "plainEnumYesNoHazardousWasteTransboundaryMovementsLocatedOecdEuLiechtenstein",
+        "hazardousWasteTransboundaryMovementsOutsideOecdEuOrLiechtenstein" : "plainEnumYesNoHazardousWasteTransboundaryMovementsOutsideOecdEuOrLiechtenstein",
+        "hazardousWasteTransportPreventionMeasures" : "plainEnumYesNoHazardousWasteTransportPreventionMeasures",
+        "wastePolicy" : "baseEnumYesNoWastePolicy",
+        "hazardousWasteTransportPreventionOtherMeasures" : "baseEnumYesNoHazardousWasteTransportPreventionOtherMeasures",
+        "hazardousWasteTransportPreventionOtherMeasuresDescription" : "plainFreeTextHazardousWasteTransportPreventionOtherMeasuresDescription",
+        "hazardousWasteDisposal" : "plainEnumYesNoHazardousWasteDisposal",
+        "hazardousWasteDisposalRiskOfImport" : "plainEnumYesNoHazardousWasteDisposalRiskOfImport",
+        "hazardousWasteDisposalOtherWasteImport" : "plainEnumYesNoHazardousWasteDisposalOtherWasteImport",
+        "hazardousWasteDisposalOtherWasteImportDescription" : "plainFreeTextHazardousWasteDisposalOtherWasteImportDescription"
+      }
+    },
+    "attachment" : {
+      "attachment" : {
+        "attachment" : "baseEnumYesNoAttachment"
+      }
+    }
+  }
+}

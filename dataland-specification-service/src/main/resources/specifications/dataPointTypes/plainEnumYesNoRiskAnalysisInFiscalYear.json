@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoRiskAnalysisInFiscalYear",
+  "name" : "Risk Analysis in Fiscal Year",
+  "businessDefinition" : "Did you perform a risk analysis as part of risk management this fiscal year?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

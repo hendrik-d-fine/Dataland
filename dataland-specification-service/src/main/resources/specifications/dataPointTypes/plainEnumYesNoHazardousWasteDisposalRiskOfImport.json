@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHazardousWasteDisposalRiskOfImport",
+  "name" : "Hazardous Waste Disposal - Risk of Import",
+  "businessDefinition" : "Are you at risk of having these hazardous wastes imported from a country that is not a member of the Basel Convention?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoIsoIecTs33061",
+  "name" : "ISO/IEC TS 33061",
+  "businessDefinition" : "Does your company comply with ISO/IEC TS 33061 standard? If yes, is there verifiable evidence of a third party validation of compliance with this standard?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

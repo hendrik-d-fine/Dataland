@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoPersistentOrganicPollutantsProductionAndUseRiskOfExposure",
+  "name" : "Persistent Organic Pollutants Production and Use - Risk Of Exposure",
+  "businessDefinition" : "Is there a risk in your company that these organic pollutants fall under Article 3(1)(a), Annex A of the Stockholm Convention of May 23rd 2001 on persistent organic pollutants (BGBl. 2002 II p. 803-804) (POPs Convention) and therefore banned?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

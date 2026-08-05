@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoResponsibilitiesForFairWorkingConditions",
+  "name" : "Responsibilities for Fair Working Conditions",
+  "businessDefinition" : "Has your company established official responsibilities for the topic of fair working conditions, according to the nature and extent of the enterprise’s business activities?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoDiversityAndInclusionRole",
+  "name" : "Diversity and Inclusion Role",
+  "businessDefinition" : "Is a member of your company's management responsible for promoting diversity in the workforce and among business partners?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoEmploymentUnderLocalMinimumAgePreventionTraining",
+  "name" : "Employment Under Local Minimum Age Prevention - Training",
+  "businessDefinition" : "Do you offer awareness trainings for people involved in the recruitment process to prevent child labor?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

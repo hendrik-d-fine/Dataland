@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoRegulatedRiskManagementResponsibility",
+  "name" : "Regulated Risk Management Responsibility",
+  "businessDefinition" : "Is the responsibility for Risk Management in your company regulated, for example by appointing a human rights officer?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

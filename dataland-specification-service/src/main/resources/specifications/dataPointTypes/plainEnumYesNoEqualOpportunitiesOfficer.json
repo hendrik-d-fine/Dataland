@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoEqualOpportunitiesOfficer",
+  "name" : "Equal Opportunities Officer",
+  "businessDefinition" : "Do you have an equal opportunities officer or a similar function?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

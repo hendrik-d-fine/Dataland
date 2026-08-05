@@ -1,0 +1,8 @@
+{
+  "id" : "plainLksgRiskOrViolationAssessmentHumanRightsOrEnvironmentalViolationsDefinition",
+  "name" : "Human Rights or Environmental Violations Definition",
+  "businessDefinition" : "Please define those violations.",
+  "dataPointBaseTypeId" : "plainLksgRiskOrViolationAssessment",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

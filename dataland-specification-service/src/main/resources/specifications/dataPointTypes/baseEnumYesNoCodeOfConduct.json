@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoCodeOfConduct",
+  "name" : "Code of Conduct",
+  "businessDefinition" : "Has your company implemented and enforced internal behavioral guidelines that address the issues of human rights protection and respect for the environment  (e.g. within the code of conduct)?  If yes, please share the relevant document with us.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

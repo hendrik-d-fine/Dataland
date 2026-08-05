@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoAppropriateGrievanceHandlingSupport",
+  "name" : "Appropriate Grievance Handling Support",
+  "businessDefinition" : "Is the necessary support provided in a way that the target groups can actually use the procedure?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

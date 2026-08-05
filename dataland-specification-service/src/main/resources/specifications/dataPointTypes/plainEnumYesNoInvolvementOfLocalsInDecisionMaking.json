@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoInvolvementOfLocalsInDecisionMaking",
+  "name" : "Involvement of Locals in Decision-Making",
+  "businessDefinition" : "Are local communities and stakeholders involved in decision-making processes?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

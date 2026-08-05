@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoLowSkillWork",
+  "name" : "Low Skill Work",
+  "businessDefinition" : "Do your employees perform low-skill or repetitive manual labor?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoEmployeeSUnder18",
+  "name" : "Employee(s) Under 18",
+  "businessDefinition" : "Does your company have employees under the age of 18?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

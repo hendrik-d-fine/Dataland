@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHarmfulNoiseEmission",
+  "name" : "Harmful Noise Emission",
+  "businessDefinition" : "Is there a risk of harmful noise emission caused by your company?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

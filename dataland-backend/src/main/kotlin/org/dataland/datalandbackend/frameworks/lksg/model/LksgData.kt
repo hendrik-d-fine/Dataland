@@ -16,7 +16,7 @@ import org.dataland.datalandbackend.frameworks.lksg.model.social.LksgSocial
 @DataType("lksg", 5)
 data class LksgData(
     @field:Valid()
-    val general: LksgGeneral,
+    val general: LksgGeneral? = null,
     @field:Valid()
     val governance: LksgGovernance? = null,
     @field:Valid()

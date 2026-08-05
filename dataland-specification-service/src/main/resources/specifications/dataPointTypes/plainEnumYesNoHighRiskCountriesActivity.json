@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHighRiskCountriesActivity",
+  "name" : "High Risk Countries Activity",
+  "businessDefinition" : "Does your company operate in countries where there are high risks for human rights and/or the environment?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

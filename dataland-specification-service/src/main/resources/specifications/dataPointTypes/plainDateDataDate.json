@@ -1,0 +1,8 @@
+{
+  "id" : "plainDateDataDate",
+  "name" : "Data Date",
+  "businessDefinition" : "The date until when the information collected is valid",
+  "dataPointBaseTypeId" : "plainDate",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

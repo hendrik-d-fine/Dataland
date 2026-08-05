@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoUseOfPrivatePublicSecurityForcesAndRiskOfViolationOfHumanRights",
+  "name" : "Use of Private Public Security Forces and Risk of Violation of Human Rights",
+  "businessDefinition" : "Does your company have measures in place to prevent your security forces from: Violating the prohibition of torture or cruel, inhuman, or degrading treatment; Damaging life or limbs; Impairing the right to exercise the freedom of association?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

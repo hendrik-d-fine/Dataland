@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoAdequateWageWithholding",
+  "name" : "Adequate Wage Withholding",
+  "businessDefinition" : "Is your company currently withholding adequate wages (adequate in the sense of local laws)?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

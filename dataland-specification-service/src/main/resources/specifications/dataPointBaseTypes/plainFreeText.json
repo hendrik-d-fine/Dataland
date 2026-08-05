@@ -1,0 +1,8 @@
+{
+  "id" : "plainFreeText",
+  "name" : "General free text data point without a source",
+  "businessDefinition" : "A plain arbitrary textual value that may contain multiple lines or paragraphs, without document support.",
+  "validatedBy" : "kotlin.String",
+  "schema" : "String",
+  "example" : "This is some free text"
+}

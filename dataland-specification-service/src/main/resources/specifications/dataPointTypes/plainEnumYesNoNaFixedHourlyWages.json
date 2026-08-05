@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoNaFixedHourlyWages",
+  "name" : "Fixed Hourly Wages",
+  "businessDefinition" : "Do fixed hourly wages exist in your company?",
+  "dataPointBaseTypeId" : "plainEnumYesNoNa",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

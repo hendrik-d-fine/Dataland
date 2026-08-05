@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHazardousWasteTransboundaryMovementsLocatedOecdEuLiechtenstein",
+  "name" : "Hazardous Waste Transboundary Movements - Located OECD, EU, Liechtenstein",
+  "businessDefinition" : "Is your company based in a country that is within the OECD, EU, or Liechtenstein?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

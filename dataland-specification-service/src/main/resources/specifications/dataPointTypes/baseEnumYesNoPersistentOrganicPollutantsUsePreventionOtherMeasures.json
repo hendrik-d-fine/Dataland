@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoPersistentOrganicPollutantsUsePreventionOtherMeasures",
+  "name" : "Persistent Organic Pollutants Use Prevention Other Measures",
+  "businessDefinition" : "Have other measures been taken to prevent the use of persistent organic pollutants (POP)?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

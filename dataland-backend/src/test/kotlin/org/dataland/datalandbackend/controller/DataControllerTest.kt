@@ -16,10 +16,10 @@ import org.dataland.datalandbackend.repositories.utils.DataMetaInformationSearch
 import org.dataland.datalandbackend.services.CompanyQueryManager
 import org.dataland.datalandbackend.services.DataExportService
 import org.dataland.datalandbackend.services.DataExportStore
-import org.dataland.datalandbackend.services.DataManager
 import org.dataland.datalandbackend.services.DataMetaInformationManager
 import org.dataland.datalandbackend.services.DatasetStorageService
 import org.dataland.datalandbackend.services.SpecificationService
+import org.dataland.datalandbackend.services.datapoints.AssembledDataManager
 import org.dataland.datalandbackend.services.datapoints.DatasetAssembler
 import org.dataland.datalandbackend.utils.DataPointUtils
 import org.dataland.datalandbackend.utils.DefaultMocks
@@ -57,7 +57,7 @@ import java.util.UUID
 internal class DataControllerTest {
     private val objectMapper: ObjectMapper = jacksonObjectMapper().findAndRegisterModules()
     private val mockSecurityContext: SecurityContext = mock<SecurityContext>()
-    private val mockDataManager: DataManager = mock<DataManager>()
+    private val mockDataManager: AssembledDataManager = mock<AssembledDataManager>()
     private val mockDataMetaInformationManager: DataMetaInformationManager = mock<DataMetaInformationManager>()
     private val mockDataPointUtils = mock<DataPointUtils>()
     private val mockSpecificationService = mock<SpecificationService>()

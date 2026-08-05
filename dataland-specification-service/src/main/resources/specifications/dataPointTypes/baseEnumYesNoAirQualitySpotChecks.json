@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoAirQualitySpotChecks",
+  "name" : "Air Quality Spot Checks",
+  "businessDefinition" : "Does your company conduct regular spot checks of air quality with corresponding documentation?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

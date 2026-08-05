@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoWasteWaterFiltration",
+  "name" : "Waste Water Filtration",
+  "businessDefinition" : "Does your company have waste water filtration systems?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

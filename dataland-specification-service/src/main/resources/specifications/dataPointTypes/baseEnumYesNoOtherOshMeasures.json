@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoOtherOshMeasures",
+  "name" : "Other OSH Measures",
+  "businessDefinition" : "Have any other measures been taken to prevent the disregard for occupational health and safety?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

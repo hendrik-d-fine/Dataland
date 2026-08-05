@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoGovernanceOfTenurePolicy",
+  "name" : "Governance of Tenure Policy",
+  "businessDefinition" : "Does your company have a policy for the governance of tenure?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

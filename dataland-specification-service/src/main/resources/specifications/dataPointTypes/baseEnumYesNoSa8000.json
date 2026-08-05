@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoSa8000",
+  "name" : "SA8000",
+  "businessDefinition" : "Is your company SA8000 certified? If so, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

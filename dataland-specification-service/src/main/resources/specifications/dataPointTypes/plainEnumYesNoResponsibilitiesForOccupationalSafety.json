@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoResponsibilitiesForOccupationalSafety",
+  "name" : "Responsibilities for Occupational Safety",
+  "businessDefinition" : "Has your company established official responsibilities for the topic of occupational safety, according to the nature and extent of the enterprise’s business activities?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

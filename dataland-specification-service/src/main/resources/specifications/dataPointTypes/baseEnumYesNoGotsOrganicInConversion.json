@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoGotsOrganicInConversion",
+  "name" : "GOTS - Organic in Conversion",
+  "businessDefinition" : "Is your company GOTS – Organic in Conversion certified? If so, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

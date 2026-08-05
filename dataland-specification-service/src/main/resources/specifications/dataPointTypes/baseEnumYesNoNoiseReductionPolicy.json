@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoNoiseReductionPolicy",
+  "name" : "Noise Reduction Policy",
+  "businessDefinition" : "Does your company have a noise reduction policy? If yes, please share the policy with us. ",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

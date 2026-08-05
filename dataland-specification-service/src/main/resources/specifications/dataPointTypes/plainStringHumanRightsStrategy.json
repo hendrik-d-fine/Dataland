@@ -1,0 +1,8 @@
+{
+  "id" : "plainStringHumanRightsStrategy",
+  "name" : "Human Rights Strategy",
+  "businessDefinition" : "In which relevant departments/business processes has the anchoring of the human rights strategy been ensured?",
+  "dataPointBaseTypeId" : "plainString",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

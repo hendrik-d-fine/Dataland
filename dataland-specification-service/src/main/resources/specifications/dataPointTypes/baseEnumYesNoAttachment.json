@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoAttachment",
+  "name" : "Attachment",
+  "businessDefinition" : "Do you have any further attachments?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHazardousWasteTransportPreventionMeasures",
+  "name" : "Hazardous Waste Transport Prevention Measures",
+  "businessDefinition" : "Does your company take measures to prevent the transport of hazardous waste?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoUnequalTreatmentPreventionTraining",
+  "name" : "Unequal Treatment Prevention Training",
+  "businessDefinition" : "Has your company introduced mandatory offers and training for employees that target unequal treatment of employment?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

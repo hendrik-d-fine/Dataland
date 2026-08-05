@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoMercuryAndMercuryCompoundsProductionAndUse",
+  "name" : "Mercury and Mercury Compounds Production and Use",
+  "businessDefinition" : "Are there manufacturing processes in your company that use mercury or mercury compounds?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

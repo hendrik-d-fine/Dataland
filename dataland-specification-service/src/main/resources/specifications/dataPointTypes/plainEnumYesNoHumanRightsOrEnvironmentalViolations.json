@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHumanRightsOrEnvironmentalViolations",
+  "name" : "Human Rights or Environmental Violations",
+  "businessDefinition" : "Have there been any human rights or environmental violations on your company’s part in the last 5 years?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

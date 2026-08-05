@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoEcoManagementAndAuditSchemeEmas",
+  "name" : "Eco-Management and Audit Scheme (EMAS)",
+  "businessDefinition" : "Is your company certified according to EMAS? If so, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

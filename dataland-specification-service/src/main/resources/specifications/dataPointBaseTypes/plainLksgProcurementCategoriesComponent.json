@@ -1,0 +1,24 @@
+{
+  "id" : "plainLksgProcurementCategoriesComponent",
+  "name" : "Procurement categories",
+  "businessDefinition" : "A mapping of procurement category types to details about the products, suppliers and share of total procurement.",
+  "validatedBy" : "kotlin.collections.Map<org.dataland.datalandbackend.frameworks.lksg.custom.ProcurementCategoryType,org.dataland.datalandbackend.frameworks.lksg.custom.LksgProcurementCategory>",
+  "schema" : {
+    "Products" : {
+      "procuredProductTypesAndServicesNaceCodes" : [ "String" ],
+      "numberOfSuppliersPerCountryCode" : {
+        "DE" : "Integer"
+      },
+      "shareOfTotalProcurementInPercent" : "BigDecimal"
+    }
+  },
+  "example" : {
+    "RawMaterials" : {
+      "procuredProductTypesAndServicesNaceCodes" : [ "01.11" ],
+      "numberOfSuppliersPerCountryCode" : {
+        "DE" : 3
+      },
+      "shareOfTotalProcurementInPercent" : 42.5
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoDiscriminationForTradeUnionMembers",
+  "name" : "Discrimination for Trade Union Members",
+  "businessDefinition" : "Does your company ensure that no consequences are taken against employees in the event of the formation, joining, and membership of a trade union?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

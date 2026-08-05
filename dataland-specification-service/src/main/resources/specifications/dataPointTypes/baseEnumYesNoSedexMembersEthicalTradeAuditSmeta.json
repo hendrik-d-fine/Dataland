@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoSedexMembersEthicalTradeAuditSmeta",
+  "name" : "Sedex Members Ethical Trade Audit (SMETA)",
+  "businessDefinition" : "Does your company apply a social audit concept as defined by SMETA (Sedex Members Ethical Trade Audit)?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

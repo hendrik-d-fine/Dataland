@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoCodeOfConductTraining",
+  "name" : "Code of Conduct Training",
+  "businessDefinition" : "Are your employees regularly made aware of your internal rules of conduct and trained on them?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

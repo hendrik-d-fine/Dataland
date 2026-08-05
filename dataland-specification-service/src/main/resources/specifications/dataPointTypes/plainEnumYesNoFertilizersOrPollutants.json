@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoFertilizersOrPollutants",
+  "name" : "Fertilizers or Pollutants",
+  "businessDefinition" : "Does your company use fertilizers or pollutants such as chemicals or heavy metals?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

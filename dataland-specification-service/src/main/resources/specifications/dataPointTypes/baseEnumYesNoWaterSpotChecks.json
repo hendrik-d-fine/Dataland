@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoWaterSpotChecks",
+  "name" : "Water Spot Checks",
+  "businessDefinition" : "Does your company carry out regular spot checks of the waters with corresponding documentation?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

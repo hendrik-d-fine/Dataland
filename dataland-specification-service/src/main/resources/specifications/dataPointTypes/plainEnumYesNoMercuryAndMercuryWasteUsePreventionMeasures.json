@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoMercuryAndMercuryWasteUsePreventionMeasures",
+  "name" : "Mercury and Mercury Waste Use Prevention Measures",
+  "businessDefinition" : "Does your company take measures to prevent the use of mercury and mercury waste?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

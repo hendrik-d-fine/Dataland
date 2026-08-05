@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoUnequalTreatmentOfEmployment",
+  "name" : "Unequal Treatment of Employment",
+  "businessDefinition" : "Does your company treat employees unequally because of national/ethnic origin, social origin, health status, disability, sexual orientation, age, gender, political opinion, religion or belief?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,14 @@
+{
+  "id" : "plainAmountWithCurrency",
+  "name" : "General amount with currency data point without a source",
+  "businessDefinition" : "A plain monetary amount paired with its currency, without document support.",
+  "validatedBy" : "org.dataland.datalandbackend.model.generics.AmountWithCurrency",
+  "schema" : {
+    "amount" : "BigDecimal",
+    "currency" : "String"
+  },
+  "example" : {
+    "amount" : 100000.0,
+    "currency" : "EUR"
+  }
+}

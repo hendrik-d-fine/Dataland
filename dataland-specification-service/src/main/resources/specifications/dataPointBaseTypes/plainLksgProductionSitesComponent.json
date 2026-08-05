@@ -1,0 +1,28 @@
+{
+  "id" : "plainLksgProductionSitesComponent",
+  "name" : "Production sites",
+  "businessDefinition" : "A list of production sites, each with an address and the goods or services produced there.",
+  "validatedBy" : "kotlin.collections.List<org.dataland.datalandbackend.frameworks.lksg.custom.LksgProductionSite>",
+  "schema" : [ {
+    "nameOfProductionSite" : "String",
+    "addressOfProductionSite" : {
+      "streetAndHouseNumber" : "String",
+      "postalCode" : "String",
+      "city" : "String",
+      "state" : "String",
+      "country" : "String"
+    },
+    "listOfGoodsOrServices" : [ "String" ]
+  } ],
+  "example" : [ {
+    "nameOfProductionSite" : "Sample Factory",
+    "addressOfProductionSite" : {
+      "streetAndHouseNumber" : "Musterstrasse 1",
+      "postalCode" : "12345",
+      "city" : "Berlin",
+      "state" : "Berlin",
+      "country" : "Germany"
+    },
+    "listOfGoodsOrServices" : [ "Textiles", "Garments" ]
+  } ]
+}

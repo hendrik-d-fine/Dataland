@@ -1,0 +1,8 @@
+{
+  "id" : "plainMultiSelectSpecificProcurement",
+  "name" : "Specific Procurement",
+  "businessDefinition" : "Does your company have one of the specific procurement models?",
+  "dataPointBaseTypeId" : "plainMultiSelect",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

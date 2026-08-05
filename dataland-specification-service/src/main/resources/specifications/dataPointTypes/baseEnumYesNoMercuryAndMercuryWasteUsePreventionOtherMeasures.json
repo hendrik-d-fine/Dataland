@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoMercuryAndMercuryWasteUsePreventionOtherMeasures",
+  "name" : "Mercury and Mercury Waste Use Prevention Other Measures",
+  "businessDefinition" : "Have other measures been taken to prevent the use of mercury and mercury waste?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

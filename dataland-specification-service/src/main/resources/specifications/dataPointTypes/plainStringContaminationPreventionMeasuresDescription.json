@@ -1,0 +1,8 @@
+{
+  "id" : "plainStringContaminationPreventionMeasuresDescription",
+  "name" : "Contamination Prevention Measures Description",
+  "businessDefinition" : "Please list any other measures (if available) you are taking to prevent the risk of harmful soil change, water pollution, air pollution, harmful noise emission or excessive water consumption that: Significantly affects the natural basis for food production; Denies a person access to safe drinking water; Impedes or destroys a person's access to sanitary facilities; Harms the health of any person",
+  "dataPointBaseTypeId" : "plainString",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

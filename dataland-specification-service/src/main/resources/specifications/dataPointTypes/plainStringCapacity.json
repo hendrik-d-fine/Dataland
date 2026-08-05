@@ -1,0 +1,8 @@
+{
+  "id" : "plainStringCapacity",
+  "name" : "Capacity",
+  "businessDefinition" : "Production capacity per year, e.g. quantity with units.",
+  "dataPointBaseTypeId" : "plainString",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

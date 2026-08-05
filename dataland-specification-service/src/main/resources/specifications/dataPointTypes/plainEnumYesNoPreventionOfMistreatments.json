@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoPreventionOfMistreatments",
+  "name" : "Prevention of Mistreatments",
+  "businessDefinition" : "Does your company's management promote a work environment free from physical, sexual, mental abuse, threats or other forms of mistreatment? (e.g. diversity program)",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

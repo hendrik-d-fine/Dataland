@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoForcedLaborAndSlaveryPreventionIdentityDocuments",
+  "name" : "Forced Labor and Slavery Prevention - Identity Documents",
+  "businessDefinition" : "Do you prohibit the withholding of identity documents?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

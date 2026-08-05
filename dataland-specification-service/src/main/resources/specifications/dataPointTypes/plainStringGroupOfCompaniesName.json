@@ -1,0 +1,8 @@
+{
+  "id" : "plainStringGroupOfCompaniesName",
+  "name" : "Group of Companies Name",
+  "businessDefinition" : "If yes, name of company group",
+  "dataPointBaseTypeId" : "plainString",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

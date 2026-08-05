@@ -1,0 +1,8 @@
+{
+  "id" : "plainLksgProductionSitesComponentListOfProductionSites",
+  "name" : "List Of Production Sites",
+  "businessDefinition" : "Please list the production sites in your company.",
+  "dataPointBaseTypeId" : "plainLksgProductionSitesComponent",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoWaterUseReductionPolicy",
+  "name" : "Water Use Reduction Policy",
+  "businessDefinition" : "Does your company have a water use reduction policy? If yes, please share the policy with us. ",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

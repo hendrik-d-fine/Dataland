@@ -1,0 +1,8 @@
+{
+  "id" : "plainStringWorstFormsOfChildLaborForms",
+  "name" : "Worst Forms of Child Labor Forms",
+  "businessDefinition" : "Which of these worst forms of child labor are not prevented?",
+  "dataPointBaseTypeId" : "plainString",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

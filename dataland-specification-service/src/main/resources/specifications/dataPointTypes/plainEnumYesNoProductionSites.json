@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoProductionSites",
+  "name" : "Production Sites",
+  "businessDefinition" : "Do you have production sites in your company?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

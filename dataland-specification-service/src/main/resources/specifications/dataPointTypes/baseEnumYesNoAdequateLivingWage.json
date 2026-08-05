@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoAdequateLivingWage",
+  "name" : "Adequate Living Wage",
+  "businessDefinition" : "Does your company pay employees adequate living wages? (the appropriate wage is at least the minimum wage set by the applicable law and is otherwise measured according to the law of the place of employment)",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

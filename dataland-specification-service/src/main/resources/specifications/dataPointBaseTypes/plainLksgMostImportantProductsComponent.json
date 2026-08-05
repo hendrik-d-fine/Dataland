@@ -1,0 +1,16 @@
+{
+  "id" : "plainLksgMostImportantProductsComponent",
+  "name" : "Most important products",
+  "businessDefinition" : "A list of the most important products, their production steps and the related corporate supply chain.",
+  "validatedBy" : "kotlin.collections.List<org.dataland.datalandbackend.frameworks.lksg.custom.LksgProduct>",
+  "schema" : [ {
+    "name" : "String",
+    "productionSteps" : [ "String" ],
+    "relatedCorporateSupplyChain" : "String"
+  } ],
+  "example" : [ {
+    "name" : "Sample Product",
+    "productionSteps" : [ "Weaving", "Dyeing" ],
+    "relatedCorporateSupplyChain" : "Textile supply chain"
+  } ]
+}

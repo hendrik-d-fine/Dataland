@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoForcedLaborAndSlaveryPreventionTraining",
+  "name" : "Forced Labor and Slavery Prevention - Training",
+  "businessDefinition" : "Do you offer awareness trainings for people involved in the recruitment process to prevent forced labor?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

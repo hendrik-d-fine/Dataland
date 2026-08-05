@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoFlaFairLaborCodeAndComplianceBenchmarksForAgriculture",
+  "name" : "FLA Fair Labor Code and Compliance Benchmarks for Agriculture",
+  "businessDefinition" : "Is your company FLA Fair Labor Code and Compliance Benchmarks for Agriculture certified? If so, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

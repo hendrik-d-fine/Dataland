@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoPersistentOrganicPollutantsProductionAndUseTransboundaryMovements",
+  "name" : "Persistent Organic Pollutants Production And Use - Transboundary Movements",
+  "businessDefinition" : "Is there a risk in your company that: Hazardous waste within the meaning of the Basel Convention  (Article 1(1), BGBI. 1994 II p. 2703, 2704) or other waste that requires special consideration (household waste or its byproducts) is transported across borders?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoSoilBorneDiseases",
+  "name" : "Soil-borne Diseases",
+  "businessDefinition" : "Does your company have measures in place to prevent the development of soil-borne diseases and pests to maintain soil fertility?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

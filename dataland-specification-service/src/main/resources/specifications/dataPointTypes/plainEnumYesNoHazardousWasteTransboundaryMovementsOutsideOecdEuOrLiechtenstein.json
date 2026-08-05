@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHazardousWasteTransboundaryMovementsOutsideOecdEuOrLiechtenstein",
+  "name" : "Hazardous Waste Transboundary Movements - Outside OECD, EU, or Liechtenstein",
+  "businessDefinition" : "Is there a risk in your company that hazardous waste is transported to a country that is outside the OECD, EU / Liechtenstein?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

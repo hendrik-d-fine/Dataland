@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoForcedLaborAndSlaveryPreventionMeasures",
+  "name" : "Forced Labor and Slavery Prevention Measures",
+  "businessDefinition" : "Does your company take measures to prevent forced labor and slavery?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

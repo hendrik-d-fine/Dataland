@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoNa",
+  "name" : "General Yes/No/Na data point without a source",
+  "businessDefinition" : "A plain value, without document support, signifying a Yes or No or NA value.",
+  "validatedBy" : "org.dataland.datalandbackend.model.enums.commons.YesNoNa",
+  "schema" : "YesNoNa",
+  "example" : "Yes"
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoEmploymentUnderLocalMinimumAgePreventionIdentityDocuments",
+  "name" : "Employment Under Local Minimum Age Prevention - Identity Documents",
+  "businessDefinition" : "Do you check official documents, such as identity documents or certificates?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

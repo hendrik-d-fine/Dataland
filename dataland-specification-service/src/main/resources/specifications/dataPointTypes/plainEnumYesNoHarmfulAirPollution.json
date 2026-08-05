@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHarmfulAirPollution",
+  "name" : "Harmful Air Pollution",
+  "businessDefinition" : "Is there a risk of harmful air pollution caused by your company?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

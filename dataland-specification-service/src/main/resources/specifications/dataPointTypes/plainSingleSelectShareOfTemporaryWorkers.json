@@ -1,0 +1,8 @@
+{
+  "id" : "plainSingleSelectShareOfTemporaryWorkers",
+  "name" : "Share of Temporary Workers",
+  "businessDefinition" : "What share of the total number of employees in your company is made up by temporary workers?",
+  "dataPointBaseTypeId" : "plainSingleSelect",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

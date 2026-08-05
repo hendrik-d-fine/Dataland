@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoNaStateSecurityForces",
+  "name" : "State Security Forces",
+  "businessDefinition" : "Have the state security forces been checked on former human right violations before they were commissioned? (Only in the case of state security forces) ",
+  "dataPointBaseTypeId" : "plainEnumYesNoNa",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

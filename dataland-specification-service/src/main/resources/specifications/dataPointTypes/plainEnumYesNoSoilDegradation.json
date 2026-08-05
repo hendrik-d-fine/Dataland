@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoSoilDegradation",
+  "name" : "Soil Degradation",
+  "businessDefinition" : "Does your company have measures in place to prevent the degradation of the local soil structure caused by the use of heavy machinery?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

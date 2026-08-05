@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNo",
+  "name" : "General Yes/No data point without a source",
+  "businessDefinition" : "A plain value, without document support, signifying a Yes or No value.",
+  "validatedBy" : "org.dataland.datalandbackend.model.enums.commons.YesNo",
+  "schema" : "YesNo",
+  "example" : "Yes"
+}

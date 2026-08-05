@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoManufacturingCompany",
+  "name" : "Manufacturing Company",
+  "businessDefinition" : "Is your company a manufacturing company?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

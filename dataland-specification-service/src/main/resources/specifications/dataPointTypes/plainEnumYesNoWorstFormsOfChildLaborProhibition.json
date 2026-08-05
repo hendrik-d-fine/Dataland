@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoWorstFormsOfChildLaborProhibition",
+  "name" : "Worst Forms of Child Labor Prohibition",
+  "businessDefinition" : "Is the prohibition of the worst forms of child labor ensured in your company? These include: all forms of slavery or practices similar to slavery; the use, procuring or offering of a child for prostitution, the production of pornography or pornographic performances; the use, procuring or offering of a child for illicit activities, in particular for the production or trafficking of drugs; work which, by its nature or the circumstances in which it is performed, is likely to be harmful to the health, safety, or morals of children",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

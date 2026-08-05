@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoWorksCouncil",
+  "name" : "Works Council",
+  "businessDefinition" : "Does your company have a works council or employee representative committee (if these are legal according to local law)?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

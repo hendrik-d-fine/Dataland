@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoFreedomOfAssociationTraining",
+  "name" : "Freedom of Association Training",
+  "businessDefinition" : "Do employees receive information about their rights as a part of training, notices, or company brochures?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

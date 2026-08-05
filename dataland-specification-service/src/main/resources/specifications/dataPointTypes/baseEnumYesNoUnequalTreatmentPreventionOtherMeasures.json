@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoUnequalTreatmentPreventionOtherMeasures",
+  "name" : "Unequal Treatment Prevention Other Measures",
+  "businessDefinition" : "Have other measures been taken to prevent unequal treatment of employment?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

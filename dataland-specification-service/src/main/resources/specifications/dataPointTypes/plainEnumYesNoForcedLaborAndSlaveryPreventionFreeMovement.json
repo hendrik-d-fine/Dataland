@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoForcedLaborAndSlaveryPreventionFreeMovement",
+  "name" : "Forced Labor and Slavery Prevention - Free Movement",
+  "businessDefinition" : "Do you ensure that doors and windows can be opened to allow the free movement of employees, as well as the ability to leave the company's premises at any time?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

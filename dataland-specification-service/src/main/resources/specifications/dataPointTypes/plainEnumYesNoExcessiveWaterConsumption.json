@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoExcessiveWaterConsumption",
+  "name" : "Excessive Water Consumption",
+  "businessDefinition" : "Is there a risk of excessive water consumption in your company?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

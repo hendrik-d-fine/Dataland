@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoSoilProtectionPolicy",
+  "name" : "Soil Protection Policy",
+  "businessDefinition" : "Does your company have a soil protection policy? If yes, please share the policy with us.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

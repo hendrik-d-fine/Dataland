@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoModelContractsForLandPurchaseOrLeasing",
+  "name" : "Model Contracts for Land Purchase or Leasing",
+  "businessDefinition" : "Does your company have model contracts for buying or leasing land?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

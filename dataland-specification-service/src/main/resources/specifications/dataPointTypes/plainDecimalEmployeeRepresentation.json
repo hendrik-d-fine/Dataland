@@ -1,0 +1,8 @@
+{
+  "id" : "plainDecimalEmployeeRepresentation",
+  "name" : "Employee Representation",
+  "businessDefinition" : "What is your percentage of employees who are represented by trade unions?",
+  "dataPointBaseTypeId" : "plainDecimal",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : [ "between:0,100" ]
+}

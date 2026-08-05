@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoForcedLaborAndSlaveryPreventionEmploymentContracts",
+  "name" : "Forced Labor and Slavery Prevention - Employment Contracts",
+  "businessDefinition" : "Do you have a formal hiring process, including employment contracts in the employee's local language, with appropriate wage and termination clauses?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

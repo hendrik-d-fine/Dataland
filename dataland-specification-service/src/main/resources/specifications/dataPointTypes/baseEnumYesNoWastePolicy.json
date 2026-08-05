@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoWastePolicy",
+  "name" : "Waste Policy",
+  "businessDefinition" : "Does your company have a waste policy? If yes, please share the policy with us. ",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

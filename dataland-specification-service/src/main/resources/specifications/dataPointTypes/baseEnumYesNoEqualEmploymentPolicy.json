@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoEqualEmploymentPolicy",
+  "name" : "Equal Employment Policy",
+  "businessDefinition" : "Does your company have an equal employment policy? If yes, please share the policy with us.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

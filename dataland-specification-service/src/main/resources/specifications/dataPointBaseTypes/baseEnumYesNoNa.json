@@ -1,0 +1,22 @@
+{
+  "id" : "baseEnumYesNoNa",
+  "name" : "General Yes/No/Na data point with a base source",
+  "businessDefinition" : "Data point with a base document reference as source, signifying a Yes or No or NA value.",
+  "validatedBy" : "org.dataland.datalandbackend.model.datapoints.BaseDataPoint<org.dataland.datalandbackend.model.enums.commons.YesNoNa>",
+  "schema" : {
+    "value" : "YesNoNa",
+    "dataSource" : {
+      "fileName" : "String",
+      "fileReference" : "String",
+      "publicationDate" : "LocalDate"
+    }
+  },
+  "example" : {
+    "value" : "Yes",
+    "dataSource" : {
+      "fileName" : "AnnualReport2020.pdf",
+      "fileReference" : "207c80dd75e923a88ff283d8bf97e346c735d2859e27bd702cf033feaef6de47",
+      "publicationDate" : "2020-05-01"
+    }
+  }
+}

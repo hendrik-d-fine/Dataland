@@ -3,6 +3,7 @@ package org.dataland.frameworktoolbox.frameworks.lksg
 import org.dataland.frameworktoolbox.frameworks.FrameworkGenerationFeatures
 import org.dataland.frameworktoolbox.frameworks.PavedRoadFramework
 import org.dataland.frameworktoolbox.intermediate.Framework
+import org.dataland.frameworktoolbox.intermediate.components.DateComponent
 import org.dataland.frameworktoolbox.intermediate.components.SingleSelectComponent
 import org.dataland.frameworktoolbox.intermediate.components.support.SelectionOption
 import org.dataland.frameworktoolbox.intermediate.group.ComponentGroup
@@ -26,7 +27,7 @@ class LksgFramework :
         order = 5,
         enabledFeatures =
             FrameworkGenerationFeatures.allExcept(
-                FrameworkGenerationFeatures.QaModel, FrameworkGenerationFeatures.DataPointSpecifications,
+                FrameworkGenerationFeatures.QaModel,
                 FrameworkGenerationFeatures.Translations, FrameworkGenerationFeatures.ViewPage,
             ),
     ) {
@@ -37,7 +38,15 @@ class LksgFramework :
             .get<ComponentGroup>("masterData")
             .let { parent ->
                 editShareOfTemporaryWorkersOptions(parent)
+                makeDataDateOptional(parent)
             }
+    }
+
+    // required top-level components are incompatible with data point specification generation
+    private fun makeDataDateOptional(parent: ComponentGroup) {
+        parent.edit<DateComponent>("dataDate") {
+            isNullable = true
+        }
     }
 
     private fun editShareOfTemporaryWorkersOptions(parent: ComponentGroup) {

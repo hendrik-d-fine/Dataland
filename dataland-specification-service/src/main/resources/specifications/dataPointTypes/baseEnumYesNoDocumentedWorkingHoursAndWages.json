@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoDocumentedWorkingHoursAndWages",
+  "name" : "Documented Working Hours and Wages",
+  "businessDefinition" : "Does your company document the working hours and wages of its employees?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

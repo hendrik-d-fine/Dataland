@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHazardousWasteDisposal",
+  "name" : "Hazardous Waste Disposal",
+  "businessDefinition" : "Do you dispose of hazardous waste in accordance with the Basel Convention (Article 1(1), BGBI. 1994 II p. 2703, 2704)?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

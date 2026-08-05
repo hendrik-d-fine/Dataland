@@ -1,0 +1,8 @@
+{
+  "id" : "plainStringUnlawfulEvictionAndTakingOfLandRisk",
+  "name" : "Unlawful Eviction and Taking of Land - Risk",
+  "businessDefinition" : "If so, what exactly is the risk?",
+  "dataPointBaseTypeId" : "plainString",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

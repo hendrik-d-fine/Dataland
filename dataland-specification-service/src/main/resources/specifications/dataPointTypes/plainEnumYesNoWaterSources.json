@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoWaterSources",
+  "name" : "Water Sources",
+  "businessDefinition" : "Does your company use water sources that are important for the local population or agriculture?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

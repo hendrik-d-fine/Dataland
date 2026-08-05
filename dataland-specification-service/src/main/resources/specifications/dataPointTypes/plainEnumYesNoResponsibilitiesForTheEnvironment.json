@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoResponsibilitiesForTheEnvironment",
+  "name" : "Responsibilities for the Environment",
+  "businessDefinition" : "Has your company established official responsibilities for the topic of the environment, according to the nature and extent of the enterprise’s business activities?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

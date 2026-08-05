@@ -1,0 +1,8 @@
+{
+  "id" : "plainString",
+  "name" : "General string data point without a source",
+  "businessDefinition" : "A plain arbitrary textual value, without document support.",
+  "validatedBy" : "kotlin.String",
+  "schema" : "String",
+  "example" : "This is a string"
+}

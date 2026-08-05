@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoIsoIecIeee15288",
+  "name" : "ISO/IEC/IEEE 15288",
+  "businessDefinition" : "Is your company ISO/IEC/IEEE 15288 certified? If so, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

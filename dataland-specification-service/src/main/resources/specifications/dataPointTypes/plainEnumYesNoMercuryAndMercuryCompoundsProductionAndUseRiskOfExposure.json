@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoMercuryAndMercuryCompoundsProductionAndUseRiskOfExposure",
+  "name" : "Mercury and Mercury Compounds Production and Use - Risk of Exposure",
+  "businessDefinition" : "Is there a risk in your company that mercury or mercury compounds used in the manufacturing process have already exceeded the specified phase-out date and are therefore prohibited according to Article 5(2), Annex B of the Minamata Agreement (BGBI. 2017 II p. 616, 617)?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

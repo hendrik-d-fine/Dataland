@@ -38,7 +38,7 @@ export function generateLksgData(nullProbability = DEFAULT_PROBABILITY): LksgDat
   return {
     general: {
       masterData: {
-        dataDate: dataGenerator.guaranteedFutureDate(),
+        dataDate: dataGenerator.randomFutureDate(),
         headOfficeInGermany: dataGenerator.randomYesNo(),
         groupOfCompanies: dataGenerator.randomYesNo(),
         groupOfCompaniesName: dataGenerator.randomShortString(),

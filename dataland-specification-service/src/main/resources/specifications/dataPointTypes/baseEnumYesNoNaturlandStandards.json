@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoNaturlandStandards",
+  "name" : "Naturland Standards",
+  "businessDefinition" : "Is your company Naturland Standards certified? If so, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

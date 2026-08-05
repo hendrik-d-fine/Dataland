@@ -1,0 +1,8 @@
+{
+  "id" : "plainLksgProcurementCategoriesComponentProcurementCategories",
+  "name" : "Procurement Categories",
+  "businessDefinition" : "Name their procurement categories (products, raw materials, services) (own operations)",
+  "dataPointBaseTypeId" : "plainLksgProcurementCategoriesComponent",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

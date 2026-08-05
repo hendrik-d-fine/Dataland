@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoMercuryAndMercuryWasteHandlingPolicy",
+  "name" : "Mercury and Mercury Waste Handling Policy",
+  "businessDefinition" : "Does your company have a policy for safely handling mercury or mercury waste? If yes, please share the policy with us.\n\n",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

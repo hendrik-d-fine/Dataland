@@ -1,0 +1,8 @@
+{
+  "id" : "plainDecimalNumberOfEmployees",
+  "name" : "Number of Employees",
+  "businessDefinition" : "Total number of employees (including temporary workers with assignment duration >6 months)",
+  "dataPointBaseTypeId" : "plainDecimal",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : [ "min:0" ]
+}

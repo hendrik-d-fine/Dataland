@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoFairWorkingConditionsPolicy",
+  "name" : "Fair Working Conditions Policy",
+  "businessDefinition" : "Does your company have a fair working conditions policy? If yes, please share the policy with us.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

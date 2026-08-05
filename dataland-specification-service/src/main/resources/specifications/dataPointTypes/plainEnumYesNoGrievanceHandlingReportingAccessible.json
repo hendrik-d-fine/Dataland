@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoGrievanceHandlingReportingAccessible",
+  "name" : "Grievance Handling Reporting Accessible",
+  "businessDefinition" : "Can all affected stakeholders and rights holders, i.e. both internal (e.g. employees) and external stakeholders (e.g. suppliers and their employees, NGOs) access the grievance reporting/whistleblowing system?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

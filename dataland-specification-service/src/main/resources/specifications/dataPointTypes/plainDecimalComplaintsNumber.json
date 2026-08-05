@@ -1,0 +1,8 @@
+{
+  "id" : "plainDecimalComplaintsNumber",
+  "name" : "Complaints Number",
+  "businessDefinition" : "How many complaints have been received (for the reported fiscal year)?",
+  "dataPointBaseTypeId" : "plainDecimal",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : [ "min:0" ]
+}

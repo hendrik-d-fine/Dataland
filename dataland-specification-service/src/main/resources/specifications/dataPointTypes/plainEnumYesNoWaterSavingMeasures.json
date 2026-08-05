@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoWaterSavingMeasures",
+  "name" : "Water Saving Measures",
+  "businessDefinition" : "Does your company take measures to prevent excessive water consumption?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

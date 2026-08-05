@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoEmploymentUnderLocalMinimumAgePreventionCheckingOfLegalMinimumAge",
+  "name" : "Employment Under Local Minimum Age Prevention - Checking Of Legal Minimum Age",
+  "businessDefinition" : "Do you regularly check that your employees are at least of minimum age?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

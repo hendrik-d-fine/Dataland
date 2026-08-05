@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoHazardousMachines",
+  "name" : "Hazardous Machines",
+  "businessDefinition" : "Are hazardous machines used in the manufacturing of (preliminary) products?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

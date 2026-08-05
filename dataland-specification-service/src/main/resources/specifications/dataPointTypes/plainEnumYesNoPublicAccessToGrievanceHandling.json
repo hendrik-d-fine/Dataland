@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoPublicAccessToGrievanceHandling",
+  "name" : "Public Access to Grievance Handling",
+  "businessDefinition" : "Does your company have publicly accessible rules that clearly describe the process for dealing with complaints?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

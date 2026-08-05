@@ -1,0 +1,8 @@
+{
+  "id" : "plainFreeTextPersistentOrganicPollutantsUsePreventionOtherMeasuresDescription",
+  "name" : "Persistent Organic Pollutants Use Prevention Other Measures Description",
+  "businessDefinition" : "Please list other measures (if available) you take to prevent the use of persistent organic pollutants (POP).",
+  "dataPointBaseTypeId" : "plainFreeText",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

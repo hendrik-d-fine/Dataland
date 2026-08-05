@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoInstructionOfSecurityForces",
+  "name" : "Instruction of Security Forces",
+  "businessDefinition" : "Do you have adequate instructions for the security forces?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainStringForcedLaborAndSlaveryPracticesSpecification",
+  "name" : "Forced Labor and Slavery Practices Specification",
+  "businessDefinition" : "Please specify which practices apply.",
+  "dataPointBaseTypeId" : "plainString",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

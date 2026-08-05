@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoAdditionalCertifications",
+  "name" : "Additional Certifications",
+  "businessDefinition" : "Does your company hold further certification / verfication / best practices etc. that mitigate human rights and/or environmental risks? If yes, please share the documents with us",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

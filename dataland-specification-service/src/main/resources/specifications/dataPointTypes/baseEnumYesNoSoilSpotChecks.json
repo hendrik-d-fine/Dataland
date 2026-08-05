@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoSoilSpotChecks",
+  "name" : "Soil Spot Checks",
+  "businessDefinition" : "Does your company carry out regular spot checks of the soils with corresponding documentation?",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

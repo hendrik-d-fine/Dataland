@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoGrievanceComplaints",
+  "name" : "Grievance Complaints",
+  "businessDefinition" : "Have there been any complaints being entered into the system?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

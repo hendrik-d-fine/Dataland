@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoZnuStandardNachhaltigerWirtschaften",
+  "name" : "ZNU-Standard Nachhaltiger Wirtschaften",
+  "businessDefinition" : "Is your company ZNU Standard certified? If so, please provide us with the certificate.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

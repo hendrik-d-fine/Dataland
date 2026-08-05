@@ -1,0 +1,8 @@
+{
+  "id" : "plainEnumYesNoMercuryAndMercuryWasteHandling",
+  "name" : "Mercury and Mercury Waste Handling",
+  "businessDefinition" : "Does your company deal with mercury or mercury waste as part of its business model?",
+  "dataPointBaseTypeId" : "plainEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainLksgRiskOrViolationAssessmentIdentifiedRisks",
+  "name" : "Identified Risks",
+  "businessDefinition" : "Which risks were specifically identified in the risk analysis?",
+  "dataPointBaseTypeId" : "plainLksgRiskOrViolationAssessment",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "plainFreeTextUseOfPrivatePublicSecurityForcesMeasuresDescription",
+  "name" : "Use of Private Public Security Forces Measures Description",
+  "businessDefinition" : "Please list any other measures you are taking to prevent the use of private and/or public security forces that violate human rights.",
+  "dataPointBaseTypeId" : "plainFreeText",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

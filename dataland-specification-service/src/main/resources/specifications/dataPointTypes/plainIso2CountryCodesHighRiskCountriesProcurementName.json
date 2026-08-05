@@ -1,0 +1,8 @@
+{
+  "id" : "plainIso2CountryCodesHighRiskCountriesProcurementName",
+  "name" : "High Risk Countries Procurement Name",
+  "businessDefinition" : "Which ones?",
+  "dataPointBaseTypeId" : "plainIso2CountryCodes",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}

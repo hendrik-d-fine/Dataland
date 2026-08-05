@@ -99,7 +99,7 @@ class PercentageComponent(
     }
 
     override fun generateDefaultSpecification(specificationCategoryBuilder: CategoryBuilder) {
-        requireDocumentSupportIn(setOf(ExtendedDocumentSupport))
+        requireDocumentSupportIn(setOf(NoDocumentSupport, ExtendedDocumentSupport))
         specificationCategoryBuilder.addDefaultDatapointAndSpecification(
             this,
             "Decimal",

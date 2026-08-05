@@ -1,0 +1,8 @@
+{
+  "id" : "baseEnumYesNoSupplierCodeOfConduct",
+  "name" : "Supplier Code of Conduct",
+  "businessDefinition" : "Does your company have a supplier code of conduct? If yes, please share the supplier code of conduct with us.",
+  "dataPointBaseTypeId" : "baseEnumYesNo",
+  "frameworkOwnership" : [ "lksg" ],
+  "constraints" : null
+}
