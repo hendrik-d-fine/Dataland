@@ -47,3 +47,6 @@ tls.crt
 
 # local logging data
 /dataland-loki/data
+
+# local data-exporter output (bind-mounted from docker-compose)
+/dataland-data-exporter/csv/
